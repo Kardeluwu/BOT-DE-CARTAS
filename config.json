@@ -58,6 +58,638 @@
     {
       "name": "El Círculo TCG",
       "url": "https://elcirculotcg.com"
+    },
+    {
+      "name": "Oneupstore",
+      "url": "https://oneupstore.cl"
+    },
+    {
+      "name": "Deckswap",
+      "url": "https://deckswap.cl"
+    },
+    {
+      "name": "Tiendaslevelup",
+      "url": "https://www.tiendaslevelup.cl"
+    },
+    {
+      "name": "AFK Store",
+      "url": "https://afkstore.cl"
+    },
+    {
+      "name": "Tiendalacomarca",
+      "url": "https://tiendalacomarca.cl"
+    },
+    {
+      "name": "Devastation Store",
+      "url": "https://www.storedevastation.com"
+    },
+    {
+      "name": "Mesa 1",
+      "url": "https://mesa1.cl"
+    },
+    {
+      "name": "Metagaming",
+      "url": "https://metagaming.cl"
+    },
+    {
+      "name": "Kokoromangaschile",
+      "url": "https://kokoromangaschile.cl"
+    },
+    {
+      "name": "Laira",
+      "url": "https://laira.cl"
+    },
+    {
+      "name": "Quest Loot",
+      "url": "https://questloot.cl"
+    },
+    {
+      "name": "Dust2",
+      "url": "https://dust2.gg"
+    },
+    {
+      "name": "Piedrabruja",
+      "url": "https://piedrabruja.cl"
+    },
+    {
+      "name": "Updown",
+      "url": "https://www.updown.cl"
+    },
+    {
+      "name": "Tsuki Manga",
+      "url": "https://tsukimanga.cl"
+    },
+    {
+      "name": "Metagame",
+      "url": "https://metagame.cl"
+    },
+    {
+      "name": "Poison and Potion – All Games",
+      "url": "https://poisonandpotion.com"
+    },
+    {
+      "name": "Konoha Store",
+      "url": "https://konohastore.cl"
+    },
+    {
+      "name": "Irion",
+      "url": "https://irion.cl"
+    },
+    {
+      "name": "Rocket TCG",
+      "url": "https://rockettcg.cl"
+    },
+    {
+      "name": "IR Gamers",
+      "url": "https://club.irgamers.cl"
+    },
+    {
+      "name": "MinimarkeTCG",
+      "url": "https://minimarketcg.cl"
+    },
+    {
+      "name": "Araucania Gaming",
+      "url": "https://araucaniagaming.cl"
+    },
+    {
+      "name": "Gorila TCG Store",
+      "url": "https://www.gorilatcg.cl"
+    },
+    {
+      "name": "Flexogames",
+      "url": "https://flexogames.cl"
+    },
+    {
+      "name": "Ineko Card Shop",
+      "url": "https://www.ineko.cl"
+    },
+    {
+      "name": "Juegos Enroque",
+      "url": "https://juegosenroque.cl"
+    },
+    {
+      "name": "AO Geek Store",
+      "url": "https://aogeekstore.cl"
+    },
+    {
+      "name": "Third Impact",
+      "url": "https://www.thirdimpact.cl"
+    },
+    {
+      "name": "Juegosgori",
+      "url": "https://juegosgori.cl"
+    },
+    {
+      "name": "Valhalla Store",
+      "url": "https://www.valhallastore.cl"
+    },
+    {
+      "name": "Gameofmagictienda",
+      "url": "https://gameofmagictienda.cl"
+    },
+    {
+      "name": "Theseekercl",
+      "url": "https://theseekercl.com"
+    },
+    {
+      "name": "Table Cat Games",
+      "url": "https://tablecatgames.cl"
+    },
+    {
+      "name": "Bluecard",
+      "url": "https://bluecard.cl"
+    },
+    {
+      "name": "Moiijuegos",
+      "url": "https://moiijuegos.cl"
+    },
+    {
+      "name": "HunterCard TCG",
+      "url": "https://www.huntercardtcg.com"
+    },
+    {
+      "name": "Wargaming",
+      "url": "https://wargaming.cl"
+    },
+    {
+      "name": "GengarHub",
+      "url": "https://www.gengarhub.cl"
+    },
+    {
+      "name": "Luffytoys",
+      "url": "https://luffytoys.cl"
+    },
+    {
+      "name": "Tienda Gengarage",
+      "url": "https://tiendagengarage.com"
+    },
+    {
+      "name": "Magic Chile",
+      "url": "https://magic-chile.cl"
+    },
+    {
+      "name": "Guild Dreams",
+      "url": "https://www.guildreams.com"
+    },
+    {
+      "name": "Akumetsu",
+      "url": "https://akumetsumangastore.cl"
+    },
+    {
+      "name": "El Reino de los Duelos",
+      "url": "https://elreinodelosduelos.cl"
+    },
+    {
+      "name": "Tecitogames",
+      "url": "https://tecitogames.com"
+    },
+    {
+      "name": "Sidedeck",
+      "url": "https://sidedeck.cl"
+    },
+    {
+      "name": "Collector Center",
+      "url": "https://collectorcenter.cl"
+    },
+    {
+      "name": "TCG Coleccionistas",
+      "url": "https://tcgcoleccionistas.cl"
+    },
+    {
+      "name": "Elkingo",
+      "url": "https://elkingo.com"
+    },
+    {
+      "name": "Korimangastore",
+      "url": "https://korimangastore.cl"
+    },
+    {
+      "name": "Dyskeu",
+      "url": "https://dyskeu.cl"
+    },
+    {
+      "name": "Racoon Toys",
+      "url": "https://racoontoys.com"
+    },
+    {
+      "name": "ProGaming",
+      "url": "https://progaming.cl"
+    },
+    {
+      "name": "Mundo Imaginario",
+      "url": "https://mundoimaginario.cl"
+    },
+    {
+      "name": "Rocadragón Tienda (Sucursal Centro)",
+      "url": "https://rocadragon.cl"
+    },
+    {
+      "name": "Dark Light Store",
+      "url": "https://darklightstore.cl"
+    },
+    {
+      "name": "Spells TCG",
+      "url": "https://spells.cl"
+    },
+    {
+      "name": "Shoguntcg",
+      "url": "https://shoguntcg.cl"
+    },
+    {
+      "name": "Griffingames",
+      "url": "https://www.griffingames.cl"
+    },
+    {
+      "name": "Gomerrycards",
+      "url": "https://gomerrycards.cl"
+    },
+    {
+      "name": "Winterland",
+      "url": "https://winterland.cl"
+    },
+    {
+      "name": "Apolostore",
+      "url": "https://apolostore.cl"
+    },
+    {
+      "name": "Pokestop",
+      "url": "https://pokestop.cl"
+    },
+    {
+      "name": "El Wnd de las Cartas",
+      "url": "https://elwndelascartas.cl"
+    },
+    {
+      "name": "El Panteón",
+      "url": "https://www.elpanteon.cl"
+    },
+    {
+      "name": "Rtgamerstore",
+      "url": "https://rtgamerstore.cl"
+    },
+    {
+      "name": "Entre Juegos",
+      "url": "https://www.entrejuegos.cl"
+    },
+    {
+      "name": "Shinko Dō",
+      "url": "https://shinkodo.cl"
+    },
+    {
+      "name": "Top 8 Game Center",
+      "url": "https://www.top8.cl"
+    },
+    {
+      "name": "Netking",
+      "url": "https://netking.cl"
+    },
+    {
+      "name": "Juego Mania",
+      "url": "https://juegomania.cl"
+    },
+    {
+      "name": "Donquixotetcgs",
+      "url": "https://donquixotetcgs.com"
+    },
+    {
+      "name": "Casa de Juegos",
+      "url": "https://www.casadejuegos.cl"
+    },
+    {
+      "name": "La Ruta de Galvarino",
+      "url": "https://www.larucadegalvarino.cl"
+    },
+    {
+      "name": "Ovni Play",
+      "url": "https://ovniplay.cl"
+    },
+    {
+      "name": "Arcadia Collects",
+      "url": "https://arcadiacollects.cl"
+    },
+    {
+      "name": "Shivano",
+      "url": "https://shivano.cl"
+    },
+    {
+      "name": "Charizstore",
+      "url": "https://www.charizstore.cl"
+    },
+    {
+      "name": "The Mulligan",
+      "url": "https://themulligan.cl"
+    },
+    {
+      "name": "Inter Cards",
+      "url": "https://intercards.cl"
+    },
+    {
+      "name": "TCG Underground Chile",
+      "url": "https://tcgunderground.cl"
+    },
+    {
+      "name": "Kima",
+      "url": "https://www.kima.cl"
+    },
+    {
+      "name": "Tcglifestore",
+      "url": "https://tcglifestore.cl"
+    },
+    {
+      "name": "Netdecker",
+      "url": "https://v3.netdecker.cl"
+    },
+    {
+      "name": "VyT Computación",
+      "url": "https://www.vytcomputacion.cl"
+    },
+    {
+      "name": "Magicsur",
+      "url": "https://www.magicsur.cl"
+    },
+    {
+      "name": "Area52",
+      "url": "https://area52.cl"
+    },
+    {
+      "name": "Samuraitcg",
+      "url": "https://www.samuraitcg.com"
+    },
+    {
+      "name": "GC Juegos",
+      "url": "https://gcjuegos.cl"
+    },
+    {
+      "name": "Cartonazo",
+      "url": "https://cartonazo.com"
+    },
+    {
+      "name": "CaTeams Games",
+      "url": "https://cateamsgames.com"
+    },
+    {
+      "name": "Crows",
+      "url": "https://crows.cl"
+    },
+    {
+      "name": "Vudugaming",
+      "url": "https://vudugaming.cl"
+    },
+    {
+      "name": "Kreature Factory",
+      "url": "https://www.kreaturefactory.cl"
+    },
+    {
+      "name": "Addictionmodel",
+      "url": "https://addictionmodel.cl"
+    },
+    {
+      "name": "Tanuki PUQ",
+      "url": "https://tanukipuq.cl"
+    },
+    {
+      "name": "Filecity",
+      "url": "https://filecity.cl"
+    },
+    {
+      "name": "WePlay Chile",
+      "url": "https://www.weplay.cl"
+    },
+    {
+      "name": "Geekers",
+      "url": "https://geekers.cl"
+    },
+    {
+      "name": "Nihongo TCG",
+      "url": "https://nihongotcg.cl"
+    },
+    {
+      "name": "Playset TCG Store",
+      "url": "https://www.playset.cl"
+    },
+    {
+      "name": "La Fortaleza PUQ",
+      "url": "https://lafortalezapuq.cl"
+    },
+    {
+      "name": "Ozen Paradise TCG",
+      "url": "https://www.ozenparadisetcg.cl"
+    },
+    {
+      "name": "Pandora Store",
+      "url": "https://www.pandorastore.cl"
+    },
+    {
+      "name": "DeMente Games",
+      "url": "https://dementegames.cl"
+    },
+    {
+      "name": "Top Deck",
+      "url": "https://topdeck.cl"
+    },
+    {
+      "name": "Honnoto",
+      "url": "https://honnoto.cl"
+    },
+    {
+      "name": "Tienda monos",
+      "url": "https://tienditamonostcg.cl"
+    },
+    {
+      "name": "ChallaTcg",
+      "url": "https://www.challatcg.cl"
+    },
+    {
+      "name": "Goldsilver",
+      "url": "https://goldsilver.cl"
+    },
+    {
+      "name": "Juguetería Valparaíso",
+      "url": "https://jugueteriavalparaiso.cl"
+    },
+    {
+      "name": "Deck Kingdom",
+      "url": "https://www.deckkingdom.cl"
+    },
+    {
+      "name": "Hell Store Sing",
+      "url": "https://www.hellstoresing.cl"
+    },
+    {
+      "name": "Bigbang",
+      "url": "https://bigbang.cl"
+    },
+    {
+      "name": "Decks Cards",
+      "url": "https://www.deckscards.cl"
+    },
+    {
+      "name": "Terra TCG",
+      "url": "https://terratcg.cl"
+    },
+    {
+      "name": "Funnyko",
+      "url": "https://funnyko.cl"
+    },
+    {
+      "name": "Zenith TCG",
+      "url": "https://zenithtcg.cl"
+    },
+    {
+      "name": "Tcgfamily",
+      "url": "https://tcgfamily.cl"
+    },
+    {
+      "name": "Gaming Place",
+      "url": "https://www.gamingplace.cl"
+    },
+    {
+      "name": "Tier Cero",
+      "url": "https://tiercero.cl"
+    },
+    {
+      "name": "Dexdeckstore",
+      "url": "https://dexdeckstore.cl"
+    },
+    {
+      "name": "ChileManga",
+      "url": "https://www.chilemanga.cl"
+    },
+    {
+      "name": "Tiendareymago",
+      "url": "https://tiendareymago.cl"
+    },
+    {
+      "name": "The Way",
+      "url": "https://www.theway.cl"
+    },
+    {
+      "name": "Fenix Card Store",
+      "url": "https://fenixcardstore.cl"
+    },
+    {
+      "name": "Genrio Store",
+      "url": "https://genrio.cl"
+    },
+    {
+      "name": "Royale Card Store",
+      "url": "https://royalcardstore.cl"
+    },
+    {
+      "name": "Santogames",
+      "url": "https://santogames.cl"
+    },
+    {
+      "name": "Tiendareverse",
+      "url": "https://tiendareverse.cl"
+    },
+    {
+      "name": "Zendicard",
+      "url": "https://zendicard.cl"
+    },
+    {
+      "name": "PiratasTCG",
+      "url": "https://piratastcg.cl"
+    },
+    {
+      "name": "PokeDals",
+      "url": "https://pokedals.cl"
+    },
+    {
+      "name": "Safari Zone",
+      "url": "https://safarizone.cl"
+    },
+    {
+      "name": "Zona Cero Store",
+      "url": "https://zonacerotienda.com"
+    },
+    {
+      "name": "Zona X Gamers Store",
+      "url": "https://zonaxgamers.cl"
+    },
+    {
+      "name": "Chikov Store",
+      "url": "https://chikovstore.cl"
+    },
+    {
+      "name": "Planeta LOZ",
+      "url": "https://www.planetaloz.cl"
+    },
+    {
+      "name": "Play TCG",
+      "url": "https://playtcg.cl"
+    },
+    {
+      "name": "Puenteelantris",
+      "url": "https://puenteelantris.cl"
+    },
+    {
+      "name": "Tcglab",
+      "url": "https://tcglab.cl"
+    },
+    {
+      "name": "Pokestoretcg",
+      "url": "https://pokestoretcg.cl"
+    },
+    {
+      "name": "Shadowless",
+      "url": "https://www.shadowless.cl"
+    },
+    {
+      "name": "Portaltcgstore",
+      "url": "https://portaltcgstore.cl"
+    },
+    {
+      "name": "Aldea Juegos",
+      "url": "https://www.aldeajuegos.cl"
+    },
+    {
+      "name": "Arkanatcg",
+      "url": "https://arkanatcg.cl"
+    },
+    {
+      "name": "Tiendaeternia",
+      "url": "https://tiendaeternia.com"
+    },
+    {
+      "name": "Mr Loc",
+      "url": "https://mrloc.cl"
+    },
+    {
+      "name": "Dulce Miel",
+      "url": "https://www.dulcemiel.cl"
+    },
+    {
+      "name": "Círculo Eterno Coleccionables",
+      "url": "https://circuloeternocoleccionables.cl"
+    },
+    {
+      "name": "El Arcanista",
+      "url": "https://elarcanista.cl"
+    },
+    {
+      "name": "Hacros",
+      "url": "https://www.hacros.cl"
+    },
+    {
+      "name": "Gold Sliver",
+      "url": "https://www.goldsliver.cl"
+    },
+    {
+      "name": "La Mano Cargada",
+      "url": "https://lamanocargada.cl"
+    },
+    {
+      "name": "Pueblo Lavanda",
+      "url": "https://pueblolavanda.cl"
+    },
+    {
+      "name": "Todojuegos",
+      "url": "https://www.todojuegos.cl"
+    },
+    {
+      "name": "Mirax Hobbies",
+      "url": "https://mirax.cl"
     }
   ]
 }

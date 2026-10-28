@@ -1,0 +1,1 @@
+# Agrega estas a mano en config.json (nombre + url)
