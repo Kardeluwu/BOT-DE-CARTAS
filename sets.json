@@ -1,0 +1,31 @@
+{
+  "_series": ["Mega Evolution", "Scarlet & Violet"],
+
+  "pokemon": {
+    "30th Celebration": ["30th", "30 aniversario", "30th celebtration", "30 celebration", "trigesimo aniversario"],
+    "Delta Reign": ["reinado delta"],
+    "Chaos Rising": [],
+    "Pitch Black": [],
+    "Perfect Order": [],
+    "Ascended Heroes": ["asceneded", "ascended"],
+    "Phantasmal Flames": ["llamas fantasmales"],
+    "Mega Evolution": ["megaevolucion", "mega evolucion", "mega evoluciones"],
+    "Black Bolt": ["rayo negro"],
+    "White Flare": ["llama blanca", "llamarada blanca"],
+    "Destined Rivals": ["rivales predestinados"],
+    "Journey Together": ["juntos de aventuras", "aventuras compartidas"],
+    "Prismatic Evolutions": ["evoluciones prismaticas"],
+    "Surging Sparks": ["chispas fulgurantes"],
+    "151": ["sv 151", "sv3pt5"],
+    "Astral Radiance": ["astral racience", "resplandor astral"],
+    "Celebrations 25th": ["25th celebration", "25th celebrations", "celebrations", "25 aniversario", "celebraciones"],
+    "Scarlet & Violet": ["escarlata y purpura", "scarlet violet"]
+  },
+
+  "one-piece": {
+    "OP-17": ["the world s strongest warriors", "worlds strongest warriors"],
+    "OP-18": ["the dominance of god", "dominance of god"],
+    "EB-05": ["heroines edition vol 2"],
+    "PRB-01": ["premium booster"]
+  }
+}

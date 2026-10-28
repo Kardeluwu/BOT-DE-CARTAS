@@ -1,0 +1,63 @@
+{
+  "games": [
+    "pokemon",
+    "one-piece"
+  ],
+  "watch": [
+    "eb05",
+    "op18",
+    "30th celebration",
+    "etb"
+  ],
+  "only_watch": false,
+  "watch_ping": "@here",
+  "alert_types": [
+    "nuevo",
+    "tienda",
+    "repuesto",
+    "baja"
+  ],
+  "min_drop_pct": 5,
+  "max_alerts_per_run": 40,
+  "refresh_hours": 6,
+  "max_pages_per_run": 120,
+  "parallel": 8,
+  "big_store_products": 3000,
+  "big_store_every_min": 60,
+  "aliases": [
+    [
+      "coleccion figura",
+      "figure collection"
+    ],
+    [
+      "coleccion poster",
+      "poster collection"
+    ],
+    [
+      "caja entrenador elite",
+      "elite trainer"
+    ]
+  ],
+  "stores": [
+    {
+      "name": "Drawn Maipú",
+      "url": "https://drawn.cl"
+    },
+    {
+      "name": "Zellados",
+      "url": "https://zellados.cl"
+    },
+    {
+      "name": "Ruta12Club",
+      "url": "https://ruta12club.cl"
+    },
+    {
+      "name": "TCG Academy",
+      "url": "https://www.tcgacademy.cl"
+    },
+    {
+      "name": "El Círculo TCG",
+      "url": "https://elcirculotcg.com"
+    }
+  ]
+}
