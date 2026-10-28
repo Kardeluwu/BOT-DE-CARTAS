@@ -3,107 +3,342 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mi Card Pulse</title>
+<title>Comparador TCG</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f6f8;--card:#fff;--ink:#16161d;--mute:#6b6b78;--line:#e4e4ea;--acc:#5a4bff;--ok:#1f9d55;--no:#b4b4be;--pre:#d97706}
-@media (prefers-color-scheme:dark){:root{--bg:#111116;--card:#1b1b22;--ink:#ececf1;--mute:#9a9aa8;--line:#2c2c36;--acc:#8b80ff;--ok:#3ecf7a;--no:#55555f;--pre:#f59e0b}}
+:root{
+  --bg:#f3f4f8;--panel:#fff;--ink:#14151c;--mute:#6b6e7c;--line:#e3e5ec;--soft:#f7f8fb;
+  --acc:#4f46e5;--acc-ink:#fff;--acc-soft:#eef0ff;--ok:#15935a;--ok-soft:#e6f6ee;--off:#a3a6b3;
+  --pre:#c2410c;--pre-soft:#fff1e7;--save:#b91c1c;--img:#fff;--shadow:0 1px 2px rgba(20,21,28,.05),0 4px 16px rgba(20,21,28,.05);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0e0f14;--panel:#171821;--ink:#ececf2;--mute:#9a9caa;--line:#272936;--soft:#1d1f2a;
+  --acc:#8b84ff;--acc-ink:#0e0f14;--acc-soft:#25244a;--ok:#3ccf8a;--ok-soft:#163327;--off:#5b5d6a;
+  --pre:#fb923c;--pre-soft:#3a2416;--save:#f87171;--img:#f4f4f6;--shadow:none}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-header{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 16px}
-h1{font-size:18px;margin:0 0 8px}
-h1 small{font-weight:400;color:var(--mute);font-size:12px;margin-left:6px}
-.bar{display:flex;flex-wrap:wrap;gap:8px}
-input,select,button{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
-input[type=search]{flex:1 1 220px}
-label.chk{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--mute)}
-main{max-width:980px;margin:0 auto;padding:12px 16px 40px}
-.count{color:var(--mute);font-size:13px;margin:4px 0 10px}
-.g{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
-.g>summary{list-style:none;display:grid;grid-template-columns:52px 1fr auto;gap:12px;align-items:center;padding:10px 12px;cursor:pointer}
-.g>summary::-webkit-details-marker{display:none}
-.g img{width:52px;height:52px;object-fit:contain;border-radius:6px;background:var(--bg)}
-.t{font-weight:600}
-.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:3px;font-size:12px;color:var(--mute)}
-.chip{border:1px solid var(--line);border-radius:99px;padding:1px 8px}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:14.5px/1.45 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+button,input,select{font:inherit;color:inherit}
+a{color:inherit}
+.wrap{max-width:1280px;margin:0 auto;padding:0 16px}
+
+/* barra superior */
+.top{position:sticky;top:0;z-index:20;background:var(--panel);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:14px;height:64px}
+.brand{display:flex;align-items:center;gap:9px;font-weight:800;font-size:17px;white-space:nowrap;cursor:pointer;letter-spacing:-.01em}
+.logo{width:30px;height:30px;border-radius:9px;background:var(--acc);display:grid;place-items:center;color:var(--acc-ink)}
+.search{flex:1;position:relative;max-width:640px}
+.search input{width:100%;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--soft);padding:0 14px 0 40px;outline:none}
+.search input:focus{border-color:var(--acc);background:var(--panel)}
+.search svg{position:absolute;left:13px;top:12px;color:var(--mute)}
+.upd{font-size:12px;color:var(--mute);white-space:nowrap}
+@media (max-width:640px){.top .wrap{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:10px}.search{order:3;flex-basis:100%}.upd{margin-left:auto}}
+
+/* pestañas de juego y categorias */
+.games{display:flex;gap:6px;padding:14px 0 6px;overflow-x:auto}
+.game{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:7px 16px;font-weight:600;cursor:pointer;white-space:nowrap}
+.game[aria-pressed=true]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.cats{display:flex;gap:8px;overflow-x:auto;padding:8px 0 14px;scrollbar-width:none}
+.cats::-webkit-scrollbar{display:none}
+.cat{flex:none;border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:8px 12px;cursor:pointer;display:flex;gap:7px;align-items:center;white-space:nowrap;box-shadow:var(--shadow)}
+.cat b{font-weight:600}
+.cat span{font-size:12px;color:var(--mute)}
+.cat[aria-pressed=true]{border-color:var(--acc);background:var(--acc-soft);color:var(--acc)}
+.cat[aria-pressed=true] span{color:var(--acc)}
+
+/* layout */
+.layout{display:grid;grid-template-columns:240px 1fr;gap:20px;align-items:start;padding-bottom:60px}
+@media (max-width:900px){.layout{grid-template-columns:1fr}}
+aside{position:sticky;top:80px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+aside h3{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:16px 0 8px}
+aside h3:first-child{margin-top:0}
+aside select,aside input[type=number]{width:100%;height:38px;border:1px solid var(--line);border-radius:10px;background:var(--soft);padding:0 10px}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{border:1px solid var(--line);background:var(--soft);border-radius:999px;padding:4px 11px;cursor:pointer;font-size:13px}
+.pill[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.check{display:flex;align-items:center;gap:8px;margin:8px 0;cursor:pointer}
+.check input{width:16px;height:16px;accent-color:var(--acc)}
+.clear{margin-top:16px;width:100%;border:1px dashed var(--line);background:none;border-radius:10px;padding:8px;cursor:pointer;color:var(--mute)}
+.fbtn{display:none}
+@media (max-width:900px){
+  aside{position:fixed;inset:auto 0 0 0;top:auto;max-height:80vh;overflow:auto;border-radius:18px 18px 0 0;z-index:40;transform:translateY(105%);transition:transform .25s}
+  aside.open{transform:none}
+  .fbtn{display:inline-flex}
+}
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:30;display:none}
+.scrim.show{display:block}
+
+/* barra de resultados */
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.bar .n{color:var(--mute);font-size:13px;margin-right:auto}
+.bar select,.fbtn{height:36px;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:0 10px;cursor:pointer;align-items:center;gap:6px}
+
+/* tarjetas */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:14px}
+@media (max-width:480px){.grid{grid-template-columns:1fr 1fr;gap:10px}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:transform .12s,border-color .12s;text-align:left;padding:0}
+.card:hover{transform:translateY(-2px);border-color:var(--acc)}
+.thumb{position:relative;aspect-ratio:1;background:var(--img);display:grid;place-items:center;border-bottom:1px solid var(--line)}
+.thumb img{width:86%;height:86%;object-fit:contain}
+.thumb .ph{color:#c4c6d0;font-weight:800;font-size:28px}
+.badges{position:absolute;top:8px;left:8px;display:flex;gap:5px;flex-wrap:wrap}
+.badge{font-size:11px;font-weight:700;border-radius:6px;padding:2px 7px}
+.badge.pre{background:var(--pre-soft);color:var(--pre)}
+.badge.save{background:var(--save);color:#fff}
+.badge.out{background:var(--soft);color:var(--mute)}
+.info{padding:11px 12px 13px;display:flex;flex-direction:column;gap:4px;flex:1}
+.set{font-size:12px;color:var(--mute);font-weight:500}
+.ttl{font-weight:600;line-height:1.3}
+.lang{font-size:11px;font-weight:600;color:var(--mute);border:1px solid var(--line);border-radius:5px;padding:0 5px;margin-left:4px;vertical-align:1px}
+.from{margin-top:auto;padding-top:6px;font-size:12px;color:var(--mute)}
+.from b{display:block;font-size:19px;color:var(--ink);font-weight:800;letter-spacing:-.01em}
+.stores{font-size:12px;color:var(--ok);font-weight:600}
+.stores.no{color:var(--mute)}
+.more{display:block;margin:20px auto 0;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:10px 22px;cursor:pointer;font-weight:600}
+.empty{text-align:center;color:var(--mute);padding:60px 0}
+
+/* ficha de producto */
+.detail{position:fixed;inset:0;z-index:50;display:none;background:rgba(10,11,16,.55);overflow:auto;padding:24px 12px}
+.detail.show{display:block}
+.sheet{max-width:920px;margin:0 auto;background:var(--panel);border-radius:18px;overflow:hidden;position:relative}
+.close{position:absolute;top:12px;right:12px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--panel);cursor:pointer;font-size:18px;z-index:2}
+.head{display:grid;grid-template-columns:260px 1fr;gap:24px;padding:24px}
+@media (max-width:700px){.head{grid-template-columns:1fr;padding:16px}.head .thumb{max-width:220px;margin:0 auto;width:100%}}
+.head .thumb{border:1px solid var(--line);border-radius:14px}
+.head h2{margin:2px 0 8px;font-size:22px;line-height:1.25;letter-spacing:-.01em}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.chip{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--mute)}
 .chip.pre{color:var(--pre);border-color:var(--pre)}
-.price{text-align:right;white-space:nowrap}
-.price b{font-size:16px}
-.price div{font-size:12px;color:var(--mute)}
-table{width:100%;border-collapse:collapse;font-size:14px}
-td{padding:8px 12px;border-top:1px solid var(--line);vertical-align:top}
-td.p{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
-td a{color:var(--ink);text-decoration:none}
-td a:hover{color:var(--acc);text-decoration:underline}
-.n{display:block;font-size:12px;color:var(--mute)}
-.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--no)}
-.dot.on{background:var(--ok)}
-tr.off td{opacity:.55}
-.warn{color:var(--pre);font-size:12px}
+.best{background:var(--ok-soft);border-radius:12px;padding:12px 14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.best .p{font-size:26px;font-weight:800;letter-spacing:-.02em}
+.best .s{font-size:13px;color:var(--mute)}
+.best a{margin-left:auto}
+.go{display:inline-flex;align-items:center;gap:6px;background:var(--acc);color:var(--acc-ink);text-decoration:none;font-weight:600;border-radius:10px;padding:8px 14px;white-space:nowrap}
+.go.ghost{background:none;color:var(--acc);border:1px solid var(--line);padding:6px 12px}
+.spread{margin-top:10px;font-size:13px;color:var(--mute)}
+.spread b{color:var(--save)}
+.sec{padding:0 24px 24px}
+@media (max-width:700px){.sec{padding:0 16px 16px}}
+.sec h3{font-size:15px;margin:6px 0 10px}
+.offers{width:100%;border-collapse:collapse}
+.offers td{padding:11px 8px;border-top:1px solid var(--line);vertical-align:middle}
+.offers tr:first-child td{border-top:0}
+.offers .rk{width:28px;color:var(--mute);font-weight:600}
+.offers .st b{display:block}
+.offers .st small{color:var(--mute);font-size:12px;display:block;max-width:420px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.offers .pr{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.offers .pr b{font-size:16px}
+.offers .pr small{display:block;font-size:12px;color:var(--save)}
+.offers .act{width:1%;text-align:right}
+.offers tr.off{opacity:.55}
+.top1 td{background:var(--ok-soft)}
+.top1 .rk{color:var(--ok)}
+@media (max-width:560px){.offers .act .go span{display:none}.offers .st small{max-width:150px}}
+details.outs summary{cursor:pointer;color:var(--mute);font-size:13px;margin:12px 0 4px}
+.chart{border:1px solid var(--line);border-radius:12px;padding:12px 12px 6px}
+.chart svg{width:100%;height:150px;display:block}
+.chart .leg{display:flex;justify-content:space-between;font-size:12px;color:var(--mute);padding:4px 2px 4px}
 </style>
 </head>
 <body>
-<header>
-  <h1>Mi Card Pulse <small id="upd"></small></h1>
-  <div class="bar">
-    <input type="search" id="q" placeholder="Buscar: delta reign etb, op17…">
-    <select id="game"><option value="">Todos los juegos</option><option value="pokemon">Pokémon</option><option value="one-piece">One Piece</option></select>
-    <select id="type"><option value="">Todos los tipos</option></select>
-    <select id="lang"><option value="">Todo idioma</option><option value="ES">Español</option><option value="EN">Inglés</option><option value="JP">Japonés</option><option value="?">Sin idioma</option></select>
-    <select id="sort"><option value="price">Precio menor</option><option value="price-d">Precio mayor</option><option value="stores">Más tiendas</option><option value="name">Nombre</option></select>
-    <label class="chk"><input type="checkbox" id="stock" checked> Con stock</label>
-    <label class="chk"><input type="checkbox" id="pre"> Solo preventas</label>
+<div class="top"><div class="wrap">
+  <div class="brand" id="home"><div class="logo"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="11" height="15" rx="2"/><path d="M9 21h8a2 2 0 0 0 2-2V8"/></svg></div><span id="site">Comparador TCG</span></div>
+  <div class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Busca un producto: delta reign etb, op17, 151 bundle…" autocomplete="off"></div>
+  <div class="upd" id="upd"></div>
+</div></div>
+
+<div class="wrap">
+  <div class="games" id="games"></div>
+  <div class="cats" id="cats"></div>
+  <div class="layout">
+    <aside id="aside">
+      <h3>Idioma</h3><div class="pills" id="langs"></div>
+      <h3>Set / edición</h3><select id="set"><option value="">Todos los sets</option></select>
+      <h3>Tienda</h3><select id="store"><option value="">Todas las tiendas</option></select>
+      <h3>Precio máximo</h3><input type="number" id="pmax" placeholder="Sin límite" min="0" step="1000">
+      <h3>Mostrar</h3>
+      <label class="check"><input type="checkbox" id="stock" checked> Solo con stock</label>
+      <label class="check"><input type="checkbox" id="pre"> Solo preventas</label>
+      <label class="check"><input type="checkbox" id="multi"> En 2 o más tiendas</label>
+      <button class="clear" id="clear">Limpiar filtros</button>
+    </aside>
+    <main>
+      <div class="bar">
+        <span class="n" id="count">Cargando…</span>
+        <button class="fbtn" id="fbtn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filtros</button>
+        <select id="sort">
+          <option value="rel">Más relevantes</option>
+          <option value="price">Precio: menor a mayor</option>
+          <option value="price-d">Precio: mayor a menor</option>
+          <option value="save">Mayor diferencia entre tiendas</option>
+          <option value="stores">Más tiendas</option>
+          <option value="name">Nombre</option>
+        </select>
+      </div>
+      <div class="grid" id="grid"></div>
+      <button class="more" id="more" hidden>Ver más productos</button>
+    </main>
   </div>
-</header>
-<main>
-  <div class="count" id="count">Cargando…</div>
-  <div id="list"></div>
-</main>
+</div>
+<div class="scrim" id="scrim"></div>
+<div class="detail" id="detail"><div class="sheet" id="sheet"></div></div>
+
 <script>
 const $=id=>document.getElementById(id);
 const clp=x=>x==null?'—':'$'+Math.round(x).toLocaleString('es-CL');
-const LANG={ES:'Español',EN:'Inglés',JP:'Japonés','?':'Idioma ?'};
-let DATA=[];
-const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ');
-function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function render(){
-  const q=norm($('q').value).trim().split(' ').filter(Boolean);
-  const f={game:$('game').value,type:$('type').value,lang:$('lang').value,stock:$('stock').checked,pre:$('pre').checked};
-  let rows=DATA.filter(g=>{
-    if(f.game&&g.game!==f.game)return false;
-    if(f.type&&g.type!==f.type)return false;
-    if(f.lang&&g.lang!==f.lang)return false;
-    if(f.stock&&!g.stores_in_stock)return false;
-    if(f.pre&&!g.preorder)return false;
-    if(q.length){const hay=g._s;return q.every(w=>hay.includes(w)||hay.replace(/ /g,'').includes(w))}
+const LANG={ES:'Español',EN:'Inglés',JP:'Japonés','?':'Sin idioma'};
+const GAME={pokemon:'Pokémon','one-piece':'One Piece'};
+const PAGE=48;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+const F={game:'',type:'',lang:'',set:'',store:'',pmax:0,stock:true,pre:false,multi:false,q:'',sort:'rel'};
+let ALL=[],shown=PAGE,BYKEY={};
+
+const TL=t=>t==='Coleccion'?'Colección':t;
+function title(g){return TL(g.type)+(g.variant?' '+g.variant.replace(/\b\w/g,c=>c.toUpperCase()):'')}
+function stockOffers(g){return g.offers.filter(o=>o.stock&&(!F.store||o.store===F.store))}
+function priceOf(g){const s=stockOffers(g);return s.length?s[0].price:(F.stock?null:(g.offers[0]||{}).price)}
+
+function filtered(skip){
+  const words=norm(F.q).split(' ').filter(Boolean);
+  return ALL.filter(g=>{
+    if(skip!=='game'&&F.game&&g.game!==F.game)return false;
+    if(skip!=='type'&&F.type&&g.type!==F.type)return false;
+    if(F.lang&&g.lang!==F.lang)return false;
+    if(F.set&&g.set!==F.set)return false;
+    if(F.store&&!g.offers.some(o=>o.store===F.store))return false;
+    const so=stockOffers(g);
+    if(F.stock&&!so.length)return false;
+    if(F.multi&&new Set(so.map(o=>o.store)).size<2)return false;
+    if(F.pre&&!g.preorder)return false;
+    const p=priceOf(g);
+    if(F.pmax&&(p==null||p>F.pmax))return false;
+    if(words.length&&!words.every(w=>g._s.includes(w)||g._c.includes(w)))return false;
     return true});
-  const s=$('sort').value, big=1e12;
-  rows.sort(s==='name'?(a,b)=>a.label.localeCompare(b.label):s==='stores'?(a,b)=>b.stores_in_stock-a.stores_in_stock:
-    s==='price-d'?(a,b)=>(b.min_price??-1)-(a.min_price??-1):(a,b)=>(a.min_price??big)-(b.min_price??big));
-  $('count').textContent=`${rows.length} fichas · ${rows.reduce((n,g)=>n+g.offers.length,0)} publicaciones`;
-  $('list').innerHTML=rows.slice(0,400).map(g=>{
-    const offers=g.offers.filter(o=>!f.stock||o.stock);
-    const max=Math.max(...g.offers.filter(o=>o.stock).map(o=>o.price));
-    return `<details class="g"><summary>
-      ${g.img?`<img loading="lazy" src="${esc(g.img)}" alt="">`:'<div></div>'}
-      <div><div class="t">${esc(g.label)}</div><div class="meta">
-        <span class="chip">${LANG[g.lang]||g.lang}</span><span class="chip">${g.game==='pokemon'?'Pokémon':'One Piece'}</span>
-        ${g.preorder?'<span class="chip pre">Preventa</span>':''}<span>${g.stores_in_stock} tienda${g.stores_in_stock===1?'':'s'} con stock</span></div></div>
-      <div class="price"><b>${clp(g.min_price)}</b>${g.stores_in_stock>1&&max>g.min_price?`<div>hasta ${clp(max)}</div>`:''}</div>
-    </summary><table>${offers.map(o=>`<tr class="${o.stock?'':'off'}">
-      <td><span class="dot ${o.stock?'on':''}"></span><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.store)}</a><span class="n">${esc(o.name)}</span></td>
-      <td class="p">${clp(o.price)}</td></tr>`).join('')}</table></details>`}).join('')
-    +(rows.length>400?'<div class="count">Mostrando 400. Usa los filtros para afinar.</div>':'');
 }
+
+function render(keep){
+  if(!keep)shown=PAGE;
+  // contadores de pestañas y categorias
+  const forGames=filtered('game'),forCats=filtered('type');
+  const gc={};forGames.forEach(g=>gc[g.game]=(gc[g.game]||0)+1);
+  $('games').innerHTML=[['','Todos',forGames.length],...Object.keys(GAME).filter(k=>ALL.some(g=>g.game===k)).map(k=>[k,GAME[k],gc[k]||0])]
+    .map(([k,l,n])=>`<button class="game" data-g="${k}" aria-pressed="${F.game===k}">${l} <span style="opacity:.6;font-weight:500">${n}</span></button>`).join('');
+  const tc={};forCats.forEach(g=>tc[g.type]=(tc[g.type]||0)+1);
+  const types=Object.keys(tc).sort((a,b)=>tc[b]-tc[a]);
+  if(F.type&&!tc[F.type])types.push(F.type);
+  $('cats').innerHTML=[['','Todo',forCats.length],...types.map(t=>[t,t,tc[t]||0])]
+    .map(([k,l,n])=>`<button class="cat" data-t="${esc(k)}" aria-pressed="${F.type===k}"><b>${esc(TL(l))}</b><span>${n}</span></button>`).join('');
+
+  const rows=filtered();
+  const big=1e15,pr=g=>priceOf(g)??big,sp=g=>{const s=stockOffers(g);return s.length>1?s[s.length-1].price-s[0].price:0};
+  const cmp={price:(a,b)=>pr(a)-pr(b),'price-d':(a,b)=>(priceOf(b)??-1)-(priceOf(a)??-1),save:(a,b)=>sp(b)-sp(a),
+    stores:(a,b)=>b.stores_in_stock-a.stores_in_stock,name:(a,b)=>a._t.localeCompare(b._t),
+    rel:(a,b)=>(b.stores_in_stock>0)-(a.stores_in_stock>0)||b.preorder-a.preorder||b.stores_in_stock-a.stores_in_stock||pr(a)-pr(b)}[F.sort];
+  rows.sort(cmp);
+  $('count').textContent=`${rows.length.toLocaleString('es-CL')} producto${rows.length===1?'':'s'}`;
+  $('grid').innerHTML=rows.length?rows.slice(0,shown).map(card).join(''):'<div class="empty">No hay productos con esos filtros.</div>';
+  $('more').hidden=rows.length<=shown;
+}
+
+function card(g){
+  const so=stockOffers(g),p=priceOf(g),n=new Set(so.map(o=>o.store)).size;
+  const hi=so.length>1?so[so.length-1].price:0,pct=hi&&p?Math.round((1-p/hi)*100):0;
+  return `<button class="card" data-k="${esc(g.key)}">
+    <div class="thumb">${g.img?`<img loading="lazy" src="${esc(g.img)}" alt="" onerror="this.remove()">`:'<span class="ph">TCG</span>'}
+      <div class="badges">${g.preorder?'<span class="badge pre">Preventa</span>':''}${pct>=10?`<span class="badge save">-${pct}%</span>`:''}${!n?'<span class="badge out">Sin stock</span>':''}</div></div>
+    <div class="info">
+      <div class="set">${esc(GAME[g.game]||'')} · ${esc(g.set)}</div>
+      <div class="ttl">${esc(title(g))}<span class="lang">${g.lang==='?'?'?':g.lang}</span></div>
+      <div class="from">${n>1?'Desde':'Precio'}<b>${clp(p)}</b></div>
+      <div class="stores ${n?'':'no'}">${n?`En ${n} tienda${n>1?'s':''}`:'Agotado en todas'}</div>
+    </div></button>`;
+}
+
+function chart(h){
+  if(!h||h.length<2)return '';
+  const W=600,H=150,P=8,ys=h.map(x=>x[1]),mn=Math.min(...ys),mx=Math.max(...ys),r=mx-mn||1;
+  const X=i=>P+i*(W-2*P)/(h.length-1),Y=v=>H-P-(v-mn)/r*(H-2*P);
+  const pts=h.map((x,i)=>`${X(i).toFixed(1)},${Y(x[1]).toFixed(1)}`).join(' ');
+  const dots=h.map((x,i)=>`<circle cx="${X(i).toFixed(1)}" cy="${Y(x[1]).toFixed(1)}" r="3" fill="var(--acc)"><title>${x[0]}: ${clp(x[1])}</title></circle>`).join('');
+  const now=ys[ys.length-1],note=now<=mn?'Hoy está en su precio más bajo del período':now>=mx&&mx>mn?'Hoy está en su precio más alto del período':'';
+  return `<div class="sec"><h3>Historial del precio más bajo</h3><div class="chart">
+    <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><polyline points="${P},${H-P} ${pts} ${W-P},${H-P}" fill="var(--acc-soft)" stroke="none"/>
+    <polyline points="${pts}" fill="none" stroke="var(--acc)" stroke-width="2.5" vector-effect="non-scaling-stroke"/>${dots}</svg>
+    <div class="leg"><span>${h[0][0]}</span><span>mín ${clp(mn)} · máx ${clp(mx)}</span><span>${h[h.length-1][0]}</span></div></div>
+    ${note?`<div class="spread">${note}</div>`:''}</div>`;
+}
+
+function openDetail(key){
+  const g=BYKEY[key];if(!g)return closeDetail();
+  const ins=g.offers.filter(o=>o.stock),outs=g.offers.filter(o=>!o.stock);
+  const best=ins[0],hi=ins.length>1?ins[ins.length-1].price:0;
+  const row=(o,i,on)=>`<tr class="${on?(i===0?'top1':''):'off'}"><td class="rk">${on?i+1:''}</td>
+    <td class="st"><b>${esc(o.store)}</b><small title="${esc(o.name)}">${esc(o.name)}</small></td>
+    <td class="pr"><b>${clp(o.price)}</b>${on&&i>0&&best?`<small>+${clp(o.price-best.price)}</small>`:''}</td>
+    <td class="act"><a class="go ${i===0&&on?'':'ghost'}" href="${esc(o.url)}" target="_blank" rel="noopener"><span>Ir a la tienda</span> ↗</a></td></tr>`;
+  $('sheet').innerHTML=`<button class="close" id="x" aria-label="Cerrar">✕</button>
+    <div class="head">
+      <div class="thumb">${g.img?`<img src="${esc(g.img)}" alt="">`:'<span class="ph">TCG</span>'}</div>
+      <div>
+        <div class="set">${esc(GAME[g.game]||'')} · ${esc(g.set)}</div>
+        <h2>${esc(title(g))}</h2>
+        <div class="chips"><span class="chip">${LANG[g.lang]||g.lang}</span><span class="chip">${esc(TL(g.type))}</span>${g.preorder?'<span class="chip pre">Preventa</span>':''}<span class="chip">${ins.length} con stock · ${g.offers.length} publicaciones</span></div>
+        ${best?`<div class="best"><div><div class="s">Mejor precio</div><div class="p">${clp(best.price)}</div><div class="s">en ${esc(best.store)}</div></div>
+          <a class="go" href="${esc(best.url)}" target="_blank" rel="noopener">Ir a la tienda ↗</a></div>
+          ${hi>best.price?`<div class="spread">Entre la tienda más barata y la más cara hay <b>${clp(hi-best.price)}</b> de diferencia (${Math.round((1-best.price/hi)*100)}%).</div>`:''}`
+          :'<div class="best" style="background:var(--soft)"><div class="s">Ahora no hay stock en ninguna tienda.</div></div>'}
+      </div>
+    </div>
+    ${chart(g.hist)}
+    <div class="sec"><h3>Precios por tienda</h3>
+      ${ins.length?`<table class="offers">${ins.map((o,i)=>row(o,i,true)).join('')}</table>`:''}
+      ${outs.length?`<details class="outs" ${ins.length?'':'open'}><summary>Sin stock (${outs.length})</summary><table class="offers">${outs.map((o,i)=>row(o,i,false)).join('')}</table></details>`:''}
+    </div>`;
+  $('detail').classList.add('show');document.body.style.overflow='hidden';$('detail').scrollTop=0;
+  $('x').onclick=()=>history.length>1?history.back():(location.hash='');
+}
+function closeDetail(){$('detail').classList.remove('show');document.body.style.overflow=''}
+function route(){const m=location.hash.match(/^#p=(.+)$/);m?openDetail(decodeURIComponent(m[1])):closeDetail()}
+
+function ago(iso){const m=Math.round((Date.now()-new Date(iso))/60000);return m<1?'recién':m<60?`hace ${m} min`:m<1440?`hace ${Math.round(m/60)} h`:new Date(iso).toLocaleDateString('es-CL')}
+
 fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
-  DATA=d.groups.map(g=>({...g,_s:norm(g.label+' '+g.offers.map(o=>o.name).join(' '))}));
-  const types=[...new Set(DATA.map(g=>g.type))].sort();
-  $('type').innerHTML+=types.map(t=>`<option>${esc(t)}</option>`).join('');
-  const dt=new Date(d.updated);
-  $('upd').innerHTML='actualizado '+dt.toLocaleString('es-CL',{dateStyle:'short',timeStyle:'short'})
-    +(d.failed.length?` · <span class="warn">fallaron: ${esc(d.failed.join(', '))}</span>`:'');
-  render();
-}).catch(()=>{$('count').textContent='Aún no hay datos. Corre el workflow una vez.'});
-['q','game','type','lang','sort','stock','pre'].forEach(id=>$(id).addEventListener('input',render));
+  if(d.site_name){$('site').textContent=d.site_name;document.title=d.site_name+' · comparador'}
+  ALL=d.groups.map(g=>{const t=title(g);return {...g,_t:t,_s:norm([GAME[g.game],g.set,t,g.lang,LANG[g.lang],...g.offers.map(o=>o.name+' '+o.store)].join(' '))}});
+  ALL.forEach(g=>{g._c=g._s.replace(/ /g,'');BYKEY[g.key]=g});
+  $('upd').textContent='Actualizado '+ago(d.updated)+(d.failed&&d.failed.length?` · ${d.failed.length} tiendas sin responder`:'');
+  const sets={};ALL.forEach(g=>sets[g.set]=(sets[g.set]||0)+1);
+  $('set').innerHTML+=Object.keys(sets).sort((a,b)=>a==='Sin set'?1:b==='Sin set'?-1:a.localeCompare(b)).map(s=>`<option value="${esc(s)}">${esc(s)} (${sets[s]})</option>`).join('');
+  const stores=[...new Set(ALL.flatMap(g=>g.offers.map(o=>o.store)))].sort((a,b)=>a.localeCompare(b));
+  $('store').innerHTML+=stores.map(s=>`<option>${esc(s)}</option>`).join('');
+  $('langs').innerHTML=[['','Todos'],['ES','Español'],['EN','Inglés'],['JP','Japonés']].map(([k,l])=>`<button class="pill" data-l="${k}" aria-pressed="${F.lang===k}">${l}</button>`).join('');
+  render();route();
+}).catch(()=>{$('count').textContent='Todavía no hay datos: corre "Mi Card Pulse" en GitHub Actions.'});
+
+// eventos
+$('games').onclick=e=>{const b=e.target.closest('[data-g]');if(b){F.game=b.dataset.g;F.type='';render()}};
+$('cats').onclick=e=>{const b=e.target.closest('[data-t]');if(b){F.type=b.dataset.t;render()}};
+$('langs').onclick=e=>{const b=e.target.closest('[data-l]');if(!b)return;F.lang=b.dataset.l;[...$('langs').children].forEach(x=>x.setAttribute('aria-pressed',x===b));render()};
+$('grid').onclick=e=>{const c=e.target.closest('[data-k]');if(c)location.hash='p='+encodeURIComponent(c.dataset.k)};
+$('more').onclick=()=>{shown+=PAGE;render(true)};
+let t;$('q').oninput=e=>{clearTimeout(t);t=setTimeout(()=>{F.q=e.target.value;render()},120)};
+$('sort').onchange=e=>{F.sort=e.target.value;render()};
+$('set').onchange=e=>{F.set=e.target.value;render()};
+$('store').onchange=e=>{F.store=e.target.value;render()};
+$('pmax').oninput=e=>{F.pmax=+e.target.value||0;render()};
+['stock','pre','multi'].forEach(id=>$(id).onchange=e=>{F[id]=e.target.checked;render()});
+$('clear').onclick=()=>{Object.assign(F,{lang:'',set:'',store:'',pmax:0,stock:true,pre:false,multi:false});
+  $('set').value=$('store').value=$('pmax').value='';$('stock').checked=true;$('pre').checked=$('multi').checked=false;
+  [...$('langs').children].forEach(x=>x.setAttribute('aria-pressed',x.dataset.l===''));render()};
+$('home').onclick=()=>{location.hash='';$('q').value='';F.q='';F.game='';F.type='';render();scrollTo(0,0)};
+const drawer=o=>{$('aside').classList.toggle('open',o);$('scrim').classList.toggle('show',o)};
+$('fbtn').onclick=()=>drawer(true);$('scrim').onclick=()=>drawer(false);
+$('detail').onclick=e=>{if(e.target===$('detail'))location.hash=''};
+addEventListener('keydown',e=>{if(e.key==='Escape'&&$('detail').classList.contains('show'))location.hash=''});
+addEventListener('hashchange',route);
 </script>
 </body>
 </html>
