@@ -1,5 +1,4 @@
-name: Mi Card Pulse
-
+name: EL CIRCULO SCAN
 on:
   schedule:
     - cron: "*/10 * * * *"
