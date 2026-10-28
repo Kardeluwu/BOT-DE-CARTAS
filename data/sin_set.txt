@@ -1,4 +1,29 @@
 # Productos sin set reconocido. Agrega alias en sets.json para agruparlos mejor.
+AFK Store: Arceus V Figure Collection Box Pokemon Brilliant Stars
+AFK Store: Booster Box Mega Evolutions (Jap) Pokemon Center
+AFK Store: Booster Box Pokemon Japanese Shiny Star V
+AFK Store: Box Cylizar Ex Pokemon TCG: Scarlet and Violet
+AFK Store: Build & Battle Stadium Pokemon Evolving Skies
+AFK Store: Charizard [Box Topper] #9 Pokemon Skyridge
+AFK Store: Charizard [Box Topper] #S1 Pokemon Legendary Collection
+AFK Store: Dragonite Vstar Box Pokemon Go
+AFK Store: Elite Trainer Box Plus: Zacian Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Plus: Zamazenta Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Pokemon Battle Styles
+AFK Store: Elite Trainer Box Pokemon Go
+AFK Store: Elite Trainer Box Pokemon Guardians Rising
+AFK Store: Elite Trainer Box Pokemon Team Up
+AFK Store: Lonchera de Colección Pokemon Tcg
+AFK Store: Mewtwo Ex Box Pokemon TCG: Team Rocket’s
+AFK Store: Mewtwo Star - Gift Box Mew - Lucario (Pokemon Star)
+AFK Store: Monkey.D.Luffy (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Pokemon Day 2026 Collection Box
+AFK Store: Pokemon TCG Charizard x Super Premium Collection
+AFK Store: Premium Collection Box [Radiant Eevee] Pokemon GO
+AFK Store: Shanks (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Sobre (Booster Pack) Pokemon Base Set
+AFK Store: Sobres Pokemon Go
+AFK Store: TIN POKEMON TCG STACKING 2024
 AO Geek Store: *ESPAÑOL* Pokémon TCG: Cynthia’s Garchomp ex Premium Collection
 AO Geek Store: CHARIZARD EX SPECIAL COLLECTION POKÉMON TCG
 AO Geek Store: ONE PIECE TCG: DON!! STORAGE BOX
@@ -261,7 +286,6 @@ Dark Light Store: Elite Trainer Box – Pokemon Go
 Dark Light Store: Pokemon Day 2026 Collection – Inglés
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 2
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 3
-Decks Cards: One Piece Mystery Pin Badge Blind Box
 Deckswap: Pokémon TCG – Mega Greninja ex Premium Collection – Español
 Deckswap: Pokémon TCG – Mega Greninja ex Premium Collection – Inglés
 Deckswap: Pokémon TCG: First Partner Illustration Collection Series 2 – Español
@@ -315,6 +339,14 @@ Donquixotetcgs: Preventa - Pokemon TCG - Ultra Premium Collection Mega Charizard
 Donquixotetcgs: Preventa - Pokemon TCG - Unova Mini Tin Display (Ingles)
 Donquixotetcgs: Preventa - Pokemon TCG -Pokemon Day 2026 Collection (ingles)
 Donquixotetcgs: Preventa Pokemon - Hop's Zacian Ex Box (ingles)
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 INGLES
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q2 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 INGLES
+Drawn Maipú: Pokemon TCG: Blaziken ex & Volcanion ex Premium Collection INGLES
+Drawn Maipú: Pokemon TCG: Greninja & Kingdra ex Special Collection INGLES
+Drawn Maipú: Pokemon TCG: Venusaur & Blastoise ex Premium Collection INGLES
 Dyskeu: (Preventa) Pokémon TCG: First Partner- Illustration Collection  (Series 3)- Inglés
 Dyskeu: (Preventa)Pokémon TCG: Colección de Ilustración de Primeros Compañeros (serie 3) – Español
 Dyskeu: ONE PIECE CARD GAME: Heroines edition sobre
@@ -468,35 +500,3 @@ Geekers: Pokémon Crown Zenith Premium Figure Collection | Shiny Zacian  (INGLÉ
 Geekers: Pokémon Crown Zenith Premium Figure Collection | Shiny Zamazenta (Inglés) 
 Geekers: Pokémon Crown Zenith Special Collection – Pikachu VMAX - Español  [RESTOCK]
 Geekers: Pokémon GO Mini Lata [Pack 5 unidades]
-Geekers: Pokémon GO Pin Collection Bulbasaur (Inglés)
-Geekers: Pokémon GO Pin Collection Charmander (Inglés)
-Geekers: Pokémon Mega Venusaur ex Premium Collection – Español LatAm  
-Geekers: Pokémon TCC Eevee Evolutions Premium Collection INGLÉS  [sellada con detalle en caja]
-Geekers: Pokémon TCG - Calyrex Ice  Ride VMAX League  Battle Deck (Inglés) 
-Geekers: Pokémon TCG - Calyrex Swadow Ride VMAX League Battle Deck (Inglés) 
-Geekers: Pokémon TCG - Mega Zygarde ex Colección Premium Inglés
-Geekers: Pokémon TCG Bundle v Battle Deck Zeraora vs Deoxys inglés 
-Geekers: Pokémon TCG Chilling Reing  Booster Inglés (1 sobre de 10 cartas)
-Geekers: Pokémon TCG Crowm Zenith Tin en Español (1 lata con envío al azar)
-Geekers: Pokémon TCG Crown Zenith  booster - (1 sobre de 10 cartas)
-Geekers: Pokémon TCG Crown Zenith Display 10 Mini Tins Preventa  Inglés 
-Geekers: Pokémon TCG Deluxe Battle Decks – Mega Gengar ex [RESERVA]
-Geekers: Pokémon TCG Enhanced 2-Pack Blister Halloween 2026 Inglés| Cartas Pokémon Originales 
-Geekers: Pokémon TCG Hisuian Electrode V Box English  [Reserva]
-Geekers: Pokémon TCG Hisuian Zoroark VSTAR Premium Collection Español 
-Geekers: Pokémon TCG Hisuian Zoroark VSTAR Premium Collection Inglés
-Geekers: Pokémon TCG Mega Latias ex Box |  Inglés [RESERVA]
-Geekers: Pokémon TCG Mega Lucario ex League Battle Deck Español LatAm | Cartas Pokémon Originales en Chile
-Geekers: Pokémon TCG Mega Lucario ex League Battle Deck Inglés | Cartas Pokémon Originales en Chile
-Geekers: Pokémon TCG Meowscarada or Quaquaval ex Deluxe Battle Deck?  / detalle en caja por aplastamiento
-Geekers: Pokémon TCG – Deck Crafter's Collection | Cartas Pokémon Originales Chile PRE VENTA
-Geekers: Pokémon TCG: 2 Pack Rival Battle Deck Marnie & Steven Español
-Geekers: Pokémon TCG: Blastoise VMAX Battle Box English (Reposición)
-Geekers: Pokémon TCG: Bloodmoon Ursaluna ex Box Español
-Geekers: Pokémon TCG: Brilliant Star Español (1 sobre de 10 cartas)
-Geekers: Pokémon TCG: Brilliant Star Sobre en Inglés envio al Azar [Reposición]
-Geekers: Pokémon TCG: Charizard  Ex Box Inglés 
-Geekers: Pokémon TCG: Charizard ex League Battle Deck 2024 (Inglés)
-Geekers: Pokémon TCG: Charizard ex Super-Premium Collection (Inglés)  [RESERVA]
-Geekers: Pokémon TCG: Colección Especial Lugia ex Español | 6 Sobres + Carta Promo Jumbo
-Geekers: Pokémon TCG: Cynthia’s Garchomp ex Premium Collection Ingles  – Español Latino 
