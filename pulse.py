@@ -394,7 +394,7 @@ def send_discord(events, groups):
         chunks.append([{"description": f"…y {extra} avisos más. Revisa la página.", "color": 0x99AAB5}])
     ping = CFG.get("watch_ping", "@here")
     for i, chunk in enumerate(chunks):
-        msg = {"username": "Mi Card Pulse", "embeds": chunk}
+        msg = {"username": "EL CIRCULO BOT MADE BY MESAM", "embeds": chunk}
         if ping and any(e["title"].startswith("⭐") for e in chunk):
             msg["content"] = f"{ping} apareció algo que estás buscando"
             msg["allowed_mentions"] = {"parse": ["everyone", "users", "roles"]}
