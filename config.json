@@ -1,9 +1,6 @@
 {
-  "bot_name": "EL CIRCULO TCG",
-  "games": [
-    "pokemon",
-    "one-piece"
-  ],
+  "bot_name": "Radar TCG",
+  "games": ["pokemon", "one-piece"],
   "watch": [
     "eb05",
     "op18",
