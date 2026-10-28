@@ -394,7 +394,7 @@ def send_discord(events, groups):
         chunks.append([{"description": f"…y {extra} avisos más. Revisa la página.", "color": 0x99AAB5}])
     ping = CFG.get("watch_ping", "@here")
     for i, chunk in enumerate(chunks):
-        msg = {"username": "EL CIRCULO BOT MADE BY MESAM", "embeds": chunk}
+        msg = {"username": CFG.get("bot_name") or "Mi Card Pulse", "embeds": chunk}
         if ping and any(e["title"].startswith("⭐") for e in chunk):
             msg["content"] = f"{ping} apareció algo que estás buscando"
             msg["allowed_mentions"] = {"parse": ["everyone", "users", "roles"]}
@@ -493,12 +493,36 @@ def main():
     if events:
         send_discord(events, groups)
 
+    # historial: precio minimo con stock de cada ficha, uno por dia (ultimos N dias)
+    hist = state.setdefault("hist", {})
+    from zoneinfo import ZoneInfo
+    from datetime import timedelta
+    now_cl = datetime.now(ZoneInfo("America/Santiago"))
+    today = now_cl.strftime("%Y-%m-%d")
+    keep_days = CFG.get("history_days", 90)
+    cutoff = (now_cl - timedelta(days=keep_days)).strftime("%Y-%m-%d")
+    for k, g in groups.items():
+        if g["min_price"] is None:
+            continue
+        h = hist.setdefault(k, [])
+        if h and h[-1][0] == today:
+            h[-1][1] = min(h[-1][1], g["min_price"])
+        else:
+            h.append([today, g["min_price"]])
+        del h[:-keep_days]
+    for k in list(hist):
+        if k not in groups and (not hist[k] or hist[k][-1][0] < cutoff):
+            del hist[k]  # fichas que ya no existen en ninguna tienda
+    for k, g in groups.items():
+        g["hist"] = hist.get(k, [])
+
     state["listings"] = new
     state["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     json.dump(state, open(STATE_PATH, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     os.makedirs(os.path.dirname(SITE_DATA), exist_ok=True)
     site = sorted(groups.values(), key=lambda g: (g["min_price"] is None, g["label"]))
-    json.dump({"updated": state["updated"], "stores": [s["name"] for s in CFG["stores"]],
+    json.dump({"updated": state["updated"], "site_name": CFG.get("bot_name") or "Mi Card Pulse",
+               "stores": [s["name"] for s in CFG["stores"]],
                "failed": sorted(failed), "groups": site},
               open(SITE_DATA, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     with open(UNKNOWN_PATH, "w", encoding="utf-8") as f:
