@@ -29,9 +29,27 @@ def get_json(url):
 
 
 # ---------------------------------------------------------------- lectores por plataforma
+def out_of_time(st):
+    """Cada tienda tiene un tope de tiempo por corrida; si se pasa, sigue la proxima vez."""
+    return time.time() > st.get("_deadline", float("inf"))
+
+
+def resume_page(state, base):
+    return state["resume"].get(base, 1)
+
+
+def finish(state, base, st, start, page, done):
+    """Guarda en que pagina seguir. Solo es lectura completa si partio en 1 y llego al final."""
+    state["resume"][base] = 1 if done else page + 1
+    st["_partial"] = not (done and start == 1)
+    st["_cycle_done"] = done  # termino una vuelta completa (aunque sea en varias pasadas)
+
+
 def read_shopify(base, st, state):
     items = []
-    for page in range(1, 60):
+    start = resume_page(state, base)
+    page, done = start, False
+    for page in range(start, 200):
         data = get_json(f"{base}/products.json?limit=250&page={page}")
         prods = data.get("products", [])
         for p in prods:
@@ -48,21 +66,29 @@ def read_shopify(base, st, state):
                 "img": imgs[0].get("src") if imgs else None,
             })
         if len(prods) < 250:
+            done = True
+            break
+        if out_of_time(st):
             break
         time.sleep(0.5)
+    finish(state, base, st, start, page, done)
     return items
 
 
 def read_woo(base, st, state):
     items = []
-    for page in range(1, 120):
+    start = resume_page(state, base)
+    page, done = start, False
+    for page in range(start, 400):
         try:
             prods = get_json(f"{base}/wp-json/wc/store/v1/products?per_page=100&page={page}")
         except urllib.error.HTTPError as e:
             if e.code == 400:  # pagina fuera de rango
+                done = True
                 break
             raise
         if not prods:
+            done = True
             break
         for p in prods:
             pr = p.get("prices") or {}
@@ -81,8 +107,12 @@ def read_woo(base, st, state):
                 "img": imgs[0].get("src") if imgs else None,
             })
         if len(prods) < 100:
+            done = True
+            break
+        if out_of_time(st):
             break
         time.sleep(0.5)
+    finish(state, base, st, start, page, done)
     return items
 
 
@@ -172,13 +202,19 @@ def read_sitemap(base, st, state):
         elif c.get("item") and NOW - c.get("checked", 0) > refresh:
             todo.append((2, url))
     todo.sort()
-    for _, url in todo[:CFG.get("max_pages_per_run", 120)]:
+    pending = sum(1 for t in todo if t[0] < 2)  # nuevas o cambiadas
+    done_n = 0
+    for prio, url in todo[:CFG.get("max_pages_per_run", 120)]:
+        if out_of_time(st):
+            break
+        done_n += prio < 2
         try:
             item = parse_jsonld_product(get(url))
         except Exception:
             continue
         cache[url] = {"lastmod": entries[url], "checked": NOW, "item": item}
         time.sleep(0.4)
+    st["_partial"] = done_n < pending
     for url in list(cache):
         if url not in entries:
             del cache[url]
@@ -435,28 +471,38 @@ def main():
     os.makedirs(os.path.dirname(STATE_PATH), exist_ok=True)
     state = json.load(open(STATE_PATH, encoding="utf-8")) if os.path.exists(STATE_PATH) else {}
     old = state.get("listings", {})
-    new, failed, unknown, report = {}, set(), [], []
+    new, failed, unknown, report, partial = {}, set(), [], [], set()
     meta = state.setdefault("store_meta", {})
+    seeded = state.setdefault("seeded", {})
+    unseeded = {st["name"] for st in CFG["stores"] if not seeded.get(st["url"])}
+    state.setdefault("resume", {})
     big_n = CFG.get("big_store_products", 3000)
     big_every = CFG.get("big_store_every_min", 60) * 60
     skipped, todo = set(), []
     for st in CFG["stores"]:
         m = meta.get(st["url"], {})
         # tiendas gigantes (casi todo singles) se revisan menos seguido
-        if m.get("n", 0) > big_n and NOW - m.get("last", 0) < big_every:
+        mid_pass = state["resume"].get(st["url"].rstrip("/"), 1) != 1  # lectura a medias: sigue ya
+        if not mid_pass and m.get("n", 0) > big_n and NOW - m.get("last", 0) < big_every:
             skipped.add(st["name"])
         else:
             todo.append(st)
 
+    budget = CFG.get("store_budget_sec", 240)
+    state.setdefault("resume", {})
+    state.setdefault("pages", {})
+    state.setdefault("platforms", {})
+
     def job(st):
         t0 = time.time()
+        st["_deadline"], st["_partial"], st["_cycle_done"] = t0 + budget, False, False
         try:
             return st, fetch_store(st, state), None, time.time() - t0
         except Exception as e:
             return st, None, e, time.time() - t0
 
     from concurrent.futures import ThreadPoolExecutor
-    with ThreadPoolExecutor(max_workers=CFG.get("parallel", 8)) as pool:
+    with ThreadPoolExecutor(max_workers=max(16, CFG.get("parallel", 16))) as pool:
         results = list(pool.map(job, todo))
 
     for st, items, err, secs in results:
@@ -464,7 +510,12 @@ def main():
             failed.add(st["name"])
             report.append(f"✗ {st['name']}: {type(err).__name__} {err}"[:200])
             continue
-        meta[st["url"]] = {"n": len(items), "last": NOW}
+        if st["_partial"]:
+            partial.add(st["name"])
+        if not st["_partial"] or st.get("_cycle_done"):
+            seeded[st["url"]] = True  # ya se leyo completa al menos una vez
+        prev_n = meta.get(st["url"], {}).get("n", 0)
+        meta[st["url"]] = {"n": max(len(items), prev_n) if st["_partial"] else len(items), "last": NOW}
         kept = 0
         for it in items:
             if not it.get("url") or not it.get("name"):
@@ -477,16 +528,20 @@ def main():
             new[it["url"]] = {"store": st["name"], "name": it["name"], "url": it["url"],
                               "price": it["price"], "stock": it["stock"], "img": it.get("img")} | c
             kept += 1
-        report.append(f"✓ {st['name']}: {len(items)} productos, {kept} sellados ({secs:.0f}s)")
+        report.append(f"✓ {st['name']}: {len(items)} productos, {kept} sellados ({secs:.0f}s)"
+                      + (" · parcial, sigue la proxima vez" if st["_partial"] else ""))
     if skipped:
         report.append(f"· {len(skipped)} tiendas grandes esperan su turno (cada {big_every // 60} min)")
     # si una tienda fallo o no le tocaba, se mantienen sus datos anteriores para no inventar avisos
     for url, l in old.items():
-        if (l["store"] in failed or l["store"] in skipped) and url not in new:
+        if (l["store"] in failed or l["store"] in skipped or l["store"] in partial) and url not in new:
             new[url] = l
 
     groups = build_groups(new)
-    events = diff(old, new, groups) if old else []
+    events = [e for e in diff(old, new, groups) if e[1]["store"] not in unseeded] if old else []
+    waiting = sorted(unseeded - failed - skipped)
+    if waiting and old:
+        report.append(f"· {len(waiting)} tiendas en primera lectura (sin avisos hasta completarla)")
     print("\n".join(report))
     print(f"{len(new)} publicaciones en {len(groups)} fichas · {len(events)} avisos"
           + (" (primera corrida: solo se guarda, sin avisos)" if not old else ""))
