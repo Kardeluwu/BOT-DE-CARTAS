@@ -427,7 +427,8 @@ def send_discord(events, groups):
         return
     chunks = [embeds[i:i + 10] for i in range(0, len(embeds), 10)]
     if extra:
-        chunks.append([{"description": f"…y {extra} avisos más. Revisa la página.", "color": 0x99AAB5}])
+        site = CFG.get("site_url", "https://kardeluwu.github.io/BOT-DE-CARTAS/")
+        chunks.append([{"description": f"…y {extra} avisos más. [Ver todo en la página]({site})", "color": 0x99AAB5}])
     ping = CFG.get("watch_ping", "@here")
     for i, chunk in enumerate(chunks):
         msg = {"username": CFG.get("bot_name") or "Mi Card Pulse", "embeds": chunk}
@@ -456,7 +457,7 @@ def build_groups(listings):
     for l in listings.values():
         g = groups.setdefault(l["key"], {k: l[k] for k in ("key", "label", "game", "set", "type", "lang", "variant")}
                               | {"offers": [], "preorder": False})
-        g["offers"].append({k: l.get(k) for k in ("store", "name", "url", "price", "stock", "img", "preorder")})
+        g["offers"].append({k: l.get(k) for k in ("store", "name", "url", "price", "stock", "img", "preorder", "seen")})
         g["preorder"] = g["preorder"] or l.get("preorder", False)
     for g in groups.values():
         g["offers"].sort(key=lambda o: (not o["stock"], o["price"]))
@@ -464,6 +465,7 @@ def build_groups(listings):
         g["stores_in_stock"] = len({o["store"] for o in stocked})
         g["min_price"] = stocked[0]["price"] if stocked else None
         g["img"] = next((o["img"] for o in g["offers"] if o.get("img")), None)
+        g["seen"] = max((o.get("seen") or 0 for o in g["offers"]), default=0)
     return groups
 
 
@@ -525,8 +527,12 @@ def main():
                 continue
             if c["set"] == "Sin set":
                 unknown.append(f"{st['name']}: {it['name']}")
+            prev = old.get(it["url"])
+            # fecha en que aparecio: se conserva; 0 = ya estaba antes de existir este dato
+            seen = prev.get("seen", 0) if prev else (0 if st["name"] in unseeded or not old else int(NOW))
             new[it["url"]] = {"store": st["name"], "name": it["name"], "url": it["url"],
-                              "price": it["price"], "stock": it["stock"], "img": it.get("img")} | c
+                              "price": it["price"], "stock": it["stock"], "img": it.get("img"),
+                              "seen": seen} | c
             kept += 1
         report.append(f"✓ {st['name']}: {len(items)} productos, {kept} sellados ({secs:.0f}s)"
                       + (" · parcial, sigue la proxima vez" if st["_partial"] else ""))
