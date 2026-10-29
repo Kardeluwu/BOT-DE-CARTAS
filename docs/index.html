@@ -97,6 +97,8 @@ aside select,aside input[type=number]{width:100%;height:38px;border:1px solid va
 .stores{font-size:12px;color:var(--ok);font-weight:600}
 .stores.no{color:var(--mute)}
 .more{display:block;margin:20px auto 0;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:10px 22px;cursor:pointer;font-weight:600}
+.more[hidden]{display:none}
+.shown{text-align:center;color:var(--mute);font-size:13px;margin-top:14px}
 .empty{text-align:center;color:var(--mute);padding:60px 0}
 
 /* ficha de producto */
@@ -180,6 +182,7 @@ details.outs summary{cursor:pointer;color:var(--mute);font-size:13px;margin:12px
         </select>
       </div>
       <div class="grid" id="grid"></div>
+      <div class="shown" id="shown"></div>
       <button class="more" id="more" hidden>Ver más productos</button>
     </main>
   </div>
@@ -244,6 +247,7 @@ function render(keep){
   $('count').textContent=`${rows.length.toLocaleString('es-CL')} producto${rows.length===1?'':'s'}`;
   $('grid').innerHTML=rows.length?rows.slice(0,shown).map(card).join(''):'<div class="empty">No hay productos con esos filtros.</div>';
   $('more').hidden=rows.length<=shown;
+  $('shown').textContent=rows.length>PAGE?`Mostrando ${Math.min(shown,rows.length).toLocaleString('es-CL')} de ${rows.length.toLocaleString('es-CL')}`:'';
 }
 
 const isNew=t=>t&&Date.now()/1000-t<86400;
