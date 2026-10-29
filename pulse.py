@@ -431,7 +431,7 @@ def send_discord(events, groups):
     ping = CFG.get("watch_ping", "@here")
     for i, chunk in enumerate(chunks):
         msg = {"username": CFG.get("bot_name") or "Mi Card Pulse", "embeds": chunk}
-        if ping and any(e["title"].startswith("⭐") for e in chunk):
+        if ping and any(e.get("title", "").startswith("⭐") for e in chunk):
             msg["content"] = f"{ping} apareció algo que estás buscando"
             msg["allowed_mentions"] = {"parse": ["everyone", "users", "roles"]}
         body = json.dumps(msg).encode()
@@ -546,7 +546,10 @@ def main():
     print(f"{len(new)} publicaciones en {len(groups)} fichas · {len(events)} avisos"
           + (" (primera corrida: solo se guarda, sin avisos)" if not old else ""))
     if events:
-        send_discord(events, groups)
+        try:
+            send_discord(events, groups)
+        except Exception as e:  # un error de Discord nunca debe impedir guardar los datos
+            print("Error enviando a Discord:", type(e).__name__, e, file=sys.stderr)
 
     # historial: precio minimo con stock de cada ficha, uno por dia (ultimos N dias)
     hist = state.setdefault("hist", {})
