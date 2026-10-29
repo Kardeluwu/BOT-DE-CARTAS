@@ -86,6 +86,7 @@ aside select,aside input[type=number]{width:100%;height:38px;border:1px solid va
 .badge{font-size:11px;font-weight:700;border-radius:6px;padding:2px 7px}
 .badge.pre{background:var(--pre-soft);color:var(--pre)}
 .badge.save{background:var(--save);color:#fff}
+.badge.new{background:var(--acc);color:var(--acc-ink)}
 .badge.out{background:var(--soft);color:var(--mute)}
 .info{padding:11px 12px 13px;display:flex;flex-direction:column;gap:4px;flex:1}
 .set{font-size:12px;color:var(--mute);font-weight:500}
@@ -169,6 +170,7 @@ details.outs summary{cursor:pointer;color:var(--mute);font-size:13px;margin:12px
         <span class="n" id="count">Cargando…</span>
         <button class="fbtn" id="fbtn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filtros</button>
         <select id="sort">
+          <option value="new">Más nuevos</option>
           <option value="rel">Más relevantes</option>
           <option value="price">Precio: menor a mayor</option>
           <option value="price-d">Precio: mayor a menor</option>
@@ -193,7 +195,7 @@ const GAME={pokemon:'Pokémon','one-piece':'One Piece'};
 const PAGE=48;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
-const F={game:'',type:'',lang:'',set:'',store:'',pmax:0,stock:true,pre:false,multi:false,q:'',sort:'rel'};
+const F={game:'',type:'',lang:'',set:'',store:'',pmax:0,stock:true,pre:false,multi:false,q:'',sort:'new'};
 let ALL=[],shown=PAGE,BYKEY={};
 
 const TL=t=>t==='Coleccion'?'Colección':t;
@@ -236,6 +238,7 @@ function render(keep){
   const big=1e15,pr=g=>priceOf(g)??big,sp=g=>{const s=stockOffers(g);return s.length>1?s[s.length-1].price-s[0].price:0};
   const cmp={price:(a,b)=>pr(a)-pr(b),'price-d':(a,b)=>(priceOf(b)??-1)-(priceOf(a)??-1),save:(a,b)=>sp(b)-sp(a),
     stores:(a,b)=>b.stores_in_stock-a.stores_in_stock,name:(a,b)=>a._t.localeCompare(b._t),
+    new:(a,b)=>(b.seen||0)-(a.seen||0)||pr(a)-pr(b),
     rel:(a,b)=>(b.stores_in_stock>0)-(a.stores_in_stock>0)||b.preorder-a.preorder||b.stores_in_stock-a.stores_in_stock||pr(a)-pr(b)}[F.sort];
   rows.sort(cmp);
   $('count').textContent=`${rows.length.toLocaleString('es-CL')} producto${rows.length===1?'':'s'}`;
@@ -243,17 +246,19 @@ function render(keep){
   $('more').hidden=rows.length<=shown;
 }
 
+const isNew=t=>t&&Date.now()/1000-t<86400;
+function since(t){if(!t)return'';const m=Math.round((Date.now()/1000-t)/60);return m<60?`hace ${Math.max(m,1)} min`:m<1440?`hace ${Math.round(m/60)} h`:`hace ${Math.round(m/1440)} d`}
 function card(g){
   const so=stockOffers(g),p=priceOf(g),n=new Set(so.map(o=>o.store)).size;
   const hi=so.length>1?so[so.length-1].price:0,pct=hi&&p?Math.round((1-p/hi)*100):0;
   return `<button class="card" data-k="${esc(g.key)}">
     <div class="thumb">${g.img?`<img loading="lazy" src="${esc(g.img)}" alt="" onerror="this.remove()">`:'<span class="ph">TCG</span>'}
-      <div class="badges">${g.preorder?'<span class="badge pre">Preventa</span>':''}${pct>=10?`<span class="badge save">-${pct}%</span>`:''}${!n?'<span class="badge out">Sin stock</span>':''}</div></div>
+      <div class="badges">${isNew(g.seen)?'<span class="badge new">Nuevo</span>':''}${g.preorder?'<span class="badge pre">Preventa</span>':''}${pct>=10?`<span class="badge save">-${pct}%</span>`:''}${!n?'<span class="badge out">Sin stock</span>':''}</div></div>
     <div class="info">
       <div class="set">${esc(GAME[g.game]||'')} · ${esc(g.set)}</div>
       <div class="ttl">${esc(title(g))}<span class="lang">${g.lang==='?'?'?':g.lang}</span></div>
       <div class="from">${n>1?'Desde':'Precio'}<b>${clp(p)}</b></div>
-      <div class="stores ${n?'':'no'}">${n?`En ${n} tienda${n>1?'s':''}`:'Agotado en todas'}</div>
+      <div class="stores ${n?'':'no'}">${n?`En ${n} tienda${n>1?'s':''}`:'Agotado en todas'}</div>${g.seen?`<div class="set">Publicado ${since(g.seen)}</div>`:''}
     </div></button>`;
 }
 
@@ -276,7 +281,7 @@ function openDetail(key){
   const ins=g.offers.filter(o=>o.stock),outs=g.offers.filter(o=>!o.stock);
   const best=ins[0],hi=ins.length>1?ins[ins.length-1].price:0;
   const row=(o,i,on)=>`<tr class="${on?(i===0?'top1':''):'off'}"><td class="rk">${on?i+1:''}</td>
-    <td class="st"><b>${esc(o.store)}</b><small title="${esc(o.name)}">${esc(o.name)}</small></td>
+    <td class="st"><b>${esc(o.store)}${isNew(o.seen)?' <span class="badge new">Nuevo</span>':''}</b><small title="${esc(o.name)}">${esc(o.name)}${o.seen?' · publicado '+since(o.seen):''}</small></td>
     <td class="pr"><b>${clp(o.price)}</b>${on&&i>0&&best?`<small>+${clp(o.price-best.price)}</small>`:''}</td>
     <td class="act"><a class="go ${i===0&&on?'':'ghost'}" href="${esc(o.url)}" target="_blank" rel="noopener"><span>Ir a la tienda</span> ↗</a></td></tr>`;
   $('sheet').innerHTML=`<button class="close" id="x" aria-label="Cerrar">✕</button>
