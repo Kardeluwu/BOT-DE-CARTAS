@@ -1,4 +1,29 @@
 # Productos sin set reconocido. Agrega alias en sets.json para agruparlos mejor.
+AFK Store: Arceus V Figure Collection Box Pokemon Brilliant Stars
+AFK Store: Booster Box Mega Evolutions (Jap) Pokemon Center
+AFK Store: Booster Box Pokemon Japanese Shiny Star V
+AFK Store: Box Cylizar Ex Pokemon TCG: Scarlet and Violet
+AFK Store: Build & Battle Stadium Pokemon Evolving Skies
+AFK Store: Charizard [Box Topper] #9 Pokemon Skyridge
+AFK Store: Charizard [Box Topper] #S1 Pokemon Legendary Collection
+AFK Store: Dragonite Vstar Box Pokemon Go
+AFK Store: Elite Trainer Box Plus: Zacian Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Plus: Zamazenta Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Pokemon Battle Styles
+AFK Store: Elite Trainer Box Pokemon Go
+AFK Store: Elite Trainer Box Pokemon Guardians Rising
+AFK Store: Elite Trainer Box Pokemon Team Up
+AFK Store: Lonchera de Colección Pokemon Tcg
+AFK Store: Mewtwo Ex Box Pokemon TCG: Team Rocket’s
+AFK Store: Mewtwo Star - Gift Box Mew - Lucario (Pokemon Star)
+AFK Store: Monkey.D.Luffy (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Pokemon Day 2026 Collection Box
+AFK Store: Pokemon TCG Charizard x Super Premium Collection
+AFK Store: Premium Collection Box [Radiant Eevee] Pokemon GO
+AFK Store: Shanks (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Sobre (Booster Pack) Pokemon Base Set
+AFK Store: Sobres Pokemon Go
+AFK Store: TIN POKEMON TCG STACKING 2024
 AO Geek Store: *ESPAÑOL* Pokémon TCG: Cynthia’s Garchomp ex Premium Collection
 AO Geek Store: CHARIZARD EX SPECIAL COLLECTION POKÉMON TCG
 AO Geek Store: ONE PIECE TCG: DON!! STORAGE BOX
@@ -236,13 +261,6 @@ Casa de Juegos: Pokémon TCG – Slashing Legends Tin Koraidon ex y Zacian ex (E
 Casa de Juegos: Pokémon TCG – Team Rocket's Mewtwo ex Box (Inglés / Español)
 Casa de Juegos: Pokémon TCG – Team Rocket's Mewtwo ex League Battle Deck (Inglés)
 Casa de Juegos: Pokémon TCG – Twilight Masquerade Sobres (Español)
-Charizstore: ONE PIECE : IB08 Illustration Box Vol.8
-Charizstore: Pokemon TCG Mega Latias ex Box – Español
-Charizstore: Pokemon TCG Mega Latias ex Box – Inglés
-Charizstore: Pokémon Day 2026 Collection – INGLES
-Charizstore: Pokémon TCG Shrouded Fable Kingambit Box – Español
-Charizstore: Pokémon Tcg Hidden Fates Premium Power Collection  – Español
-Charizstore: SET DADOS POKÉMON (DADOS ETB)
 Chikov Store: League Battle Deck Pokemon TCG: Mega Lucario EX
 Chikov Store: Sobre Pokemon
 ChileManga: Pokemon Day 2026 Collection - Español
@@ -315,11 +333,14 @@ Donquixotetcgs: Preventa - Pokemon TCG - Ultra Premium Collection Mega Charizard
 Donquixotetcgs: Preventa - Pokemon TCG - Unova Mini Tin Display (Ingles)
 Donquixotetcgs: Preventa - Pokemon TCG -Pokemon Day 2026 Collection (ingles)
 Donquixotetcgs: Preventa Pokemon - Hop's Zacian Ex Box (ingles)
-Dust2: One Piece TCG: Devil Fruits Collection Vol. 2 – DF02
-Dust2: Pokémon Go Premiun Collection Radiant Eevee Inglés
-Dust2: Pokémon TCG: Trick or Trade BOOster Bundle Ingles
-Dust2: Pokémon TCG: Twilight Masquerade Booster Bundle Español
-Dust2: Temporal Forces Booster Box 36 sobres Pokemon Ingles
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 INGLES
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q2 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 INGLES
+Drawn Maipú: Pokemon TCG: Blaziken ex & Volcanion ex Premium Collection INGLES
+Drawn Maipú: Pokemon TCG: Greninja & Kingdra ex Special Collection INGLES
+Drawn Maipú: Pokemon TCG: Venusaur & Blastoise ex Premium Collection INGLES
 Dyskeu: (Preventa) Pokémon TCG: First Partner- Illustration Collection  (Series 3)- Inglés
 Dyskeu: (Preventa)Pokémon TCG: Colección de Ilustración de Primeros Compañeros (serie 3) – Español
 Dyskeu: ONE PIECE CARD GAME: Heroines edition sobre
@@ -373,16 +394,6 @@ Dyskeu: Pokémon Team Rocket Tin Nidoking Inglés
 Dyskeu: Pokémon Team Rocket Tin Persian Inglés
 Dyskeu: Pokémon Team Rocket’s Mewtwo ex League Battle Deck – Inglés
 El Arcanista: Prelanzamiento Pokémon TCG — Dominio Delta | Kit + 3 sobres adicionales - HORARIO PM
-El Panteón: Brilliant Stars Pokemon Center Elite Trainer Box INGLES
-El Panteón: Pin Collection [Bulbasaur] – Pokemon GO Ingles
-El Panteón: Pin Collection [Charmander] – Pokemon GO Ingles
-El Panteón: Pin Collection [Squirtle] – Pokemon GO Ingles
-El Panteón: Pokemon GO Elite Trainer Box – Pokemon GO ESPAÑOL
-El Panteón: Pokemon GO Elite Trainer Box – Pokemon GO Ingles
-El Panteón: Pokemon GO Premium Collection  Radiant Eevee Ingles
-El Panteón: Special Collection – Team Instinct – Pokemon GO Ingles
-El Panteón: Special Collection – Team Mystic – Pokemon GO Ingles
-El Panteón: Special Collection – Team Valor – Pokemon GO Ingles
 El Reino de los Duelos: Mythical Pokemon Collection Box [Genesect] - Generations (GEN)
 El Reino de los Duelos: One Piece Card Game: (DF03) Devil Fruits Collection Vol.3
 El Reino de los Duelos: One Piece Card Game: Tin Pack Set Vol.2 (TS02)
@@ -430,6 +441,7 @@ Filecity: Pokémon TCG: Mega Greninja EX Premium Collection (INGLÉS).
 Filecity: Pokémon TCG: Mega Lucario EX League Battle Deck Case (Inglés)
 Filecity: Pokémon TCG: Mega Lucario ex Figure Collection
 Filecity: Pokémon TCG: Mega Zygarde ex Premium Collection
+Flexogames: Pokemon TCG: Deck Crafter's Collection
 Funnyko: Blind Box  Pokémon Terrarium Collection 12 Re-Ment
 Funnyko: Blind Box Pokémon Circular Diorama Collection Re-Ment
 Funnyko: Blind Box Pokémon Forest 7 Re-Ment 
@@ -488,15 +500,3 @@ Gameofmagictienda: PKM TCG Azure Legends Tin - Xerneas Ex Ingles
 Gameofmagictienda: PKM TCG Azure Legends Tin - XerneasEx Español 
 Gameofmagictienda: PKM TCG Blooming Waters Premium Collection 
 Gameofmagictienda: PKM TCG Charizard Ex Special Collection Español 
-Gameofmagictienda: PKM TCG Charizard Ex Special Collection Inglés 
-Gameofmagictienda: PKM TCG Hop's Zacian ex Box Español 
-Gameofmagictienda: PKM TCG Hop's Zacian ex Box Ingles 
-Gameofmagictienda: PKM TCG Iron Leaves ex Battle Deck Español 
-Gameofmagictienda: PKM TCG Iron Leaves ex Battle Deck Inglés 
-Gameofmagictienda: PKM TCG Mega Greninja ex Premium Collection Español 
-Gameofmagictienda: PKM TCG Mega Greninja ex Premium Collection Ingles 
-Gameofmagictienda: PKM TCG Ogerpon ex Premium Collection English 
-Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Booster Bundle Español 
-Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Booster Bundle Ingles 
-Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Elite Trainer Box Español 
-Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Elite Trainer Box Ingles 
