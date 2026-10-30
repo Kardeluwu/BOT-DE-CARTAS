@@ -1,4 +1,29 @@
 # Productos sin set reconocido. Agrega alias en sets.json para agruparlos mejor.
+AFK Store: Arceus V Figure Collection Box Pokemon Brilliant Stars
+AFK Store: Booster Box Mega Evolutions (Jap) Pokemon Center
+AFK Store: Booster Box Pokemon Japanese Shiny Star V
+AFK Store: Box Cylizar Ex Pokemon TCG: Scarlet and Violet
+AFK Store: Build & Battle Stadium Pokemon Evolving Skies
+AFK Store: Charizard [Box Topper] #9 Pokemon Skyridge
+AFK Store: Charizard [Box Topper] #S1 Pokemon Legendary Collection
+AFK Store: Dragonite Vstar Box Pokemon Go
+AFK Store: Elite Trainer Box Plus: Zacian Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Plus: Zamazenta Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Pokemon Battle Styles
+AFK Store: Elite Trainer Box Pokemon Go
+AFK Store: Elite Trainer Box Pokemon Guardians Rising
+AFK Store: Elite Trainer Box Pokemon Team Up
+AFK Store: Lonchera de Colección Pokemon Tcg
+AFK Store: Mewtwo Ex Box Pokemon TCG: Team Rocket’s
+AFK Store: Mewtwo Star - Gift Box Mew - Lucario (Pokemon Star)
+AFK Store: Monkey.D.Luffy (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Pokemon Day 2026 Collection Box
+AFK Store: Pokemon TCG Charizard x Super Premium Collection
+AFK Store: Premium Collection Box [Radiant Eevee] Pokemon GO
+AFK Store: Shanks (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Sobre (Booster Pack) Pokemon Base Set
+AFK Store: Sobres Pokemon Go
+AFK Store: TIN POKEMON TCG STACKING 2024
 AO Geek Store: *ESPAÑOL* Pokémon TCG: Cynthia’s Garchomp ex Premium Collection
 AO Geek Store: CHARIZARD EX SPECIAL COLLECTION POKÉMON TCG
 AO Geek Store: ONE PIECE TCG: DON!! STORAGE BOX
@@ -92,6 +117,130 @@ Arkanatcg: Pokemon Terastal Festival ex - Caja de Sobres [Japonés]
 Arkanatcg: Pokemon Terastal Festival ex - Sobres [Japonés]
 Bigbang: Pokémon - Poké Ball Tin - Best of 2021 - Español
 Bigbang: Pokémon Day 2026 Collection ESPAÑOL
+Bluecard: Model Kit - One Piece Going-Merry (Grand Ship Collection) 
+Bluecard: Model Kit - One Piece Thousand Sunny (Grand Ship Collection) 
+Bluecard: One Piece CG: Illustration Box 7 [IB07] Stock para torneo
+Bluecard: One Piece CG: Illustration Box 8 [IB08] Stock para torneo
+Bluecard: One Piece Card Game - Devil Fruit's Collection Vol.2: Mera Mera 
+Bluecard: One Piece Card Game - Starter Deck 15: Edward Newgate 
+Bluecard: One Piece Card Game - Starter Deck 16: Uta 
+Bluecard: One Piece Card Game - Starter Deck 17: Donqixote Doflamingo 
+Bluecard: One Piece Card Game - Starter Deck 18: Monkey D. Luffy 
+Bluecard: One Piece Card Game - Starter Deck 19: Smoker 
+Bluecard: One Piece Card Game - Starter Deck 20: Charlotte Katakuri 
+Bluecard: One Piece Card Game - Starter Deck EX 21 Gear 5 
+Bluecard: One Piece TCG: Devil Fruits Collection Vol.3 
+Bluecard: One Piece TCG: Premium Card Collection -Best Selection- Vol.4 
+Bluecard: Pokemon TCG: Mega Battle Deck - Mega Diancie ex (ESP) Mega Diancie ex - ESP
+Bluecard: Pokemon TCG: Mega Battle Deck - Mega Diancie ex (ING) Mega Diancie ex - ING
+Bluecard: Pokemon TCG: Mega Battle Deck - Mega Gengar ex (ESP) Mega Gengar ex - ESP
+Bluecard: Pokemon TCG: Mega Battle Deck - Mega Gengar ex (ING) Mega Gengar ex - ING
+Bluecard: Pokemon TCG: Mega Charizard X EX Ultra-Premium Collection (ING) Ingles
+Bluecard: Pokémon - Brecha Paradójica - Booster Pack - Español 
+Bluecard: Pokémon Back to School Eraser Blister 2023 
+Bluecard: Pokémon TCG - Combined Powers Premium Collection 
+Bluecard: Pokémon TCG - Dragapult ex & Hydreigon ex Premium Collection 
+Bluecard: Pokémon TCG - Hop's Zacian ex Collection inglés 
+Bluecard: Pokémon TCG - Iono's Bellibolt Premium Collection - Inglés 
+Bluecard: Pokémon TCG - Lugia ex & Latias ex Premium Collection 
+Bluecard: Pokémon TCG - Mabosstiff ex Box 
+Bluecard: Pokémon TCG - Mega Lucario ex Figure Collection (ING) 
+Bluecard: Pokémon TCG - Megaevolution (Golduck) - 3pack Blister (ESP) 
+Bluecard: Pokémon TCG - Megaevolution - 3pack Blister (ESP) preventa
+Bluecard: Pokémon TCG - Megaevolution - Booster Bundle (ING) Preventa
+Bluecard: Pokémon TCG - Pack 10 Sobres Ganchera Obsidian Flames 
+Bluecard: Pokémon TCG - Pack 10 Sobres Ganchera Stellar Crown 
+Bluecard: Pokémon TCG - Rival Battle Deck Marnie Marnie
+Bluecard: Pokémon TCG - Rival Battle Deck Steven Steven
+Bluecard: Pokémon TCG - Team Rocket's Mewtwo ex League Battle Deck (ING) 
+Bluecard: Pokémon TCG - Team Rocket's Moltres ex Ultra premium Collection (ING) 
+Bluecard: Pokémon TCG : Sobre Ganchera Mascarada Crepuscular Español
+Bluecard: Pokémon TCG : ex Battle Deck Houndoom - Inglés Houndoom
+Bluecard: Pokémon TCG : ex Battle Deck Melmetal - Inglés Melmetal
+Bluecard: Pokémon TCG Eraser Blister - Bellibolt Bellibolt
+Bluecard: Pokémon TCG Eraser Blister - Gengar Gengar
+Bluecard: Pokémon TCG Vibrant Paldea Mini Tin Inglés 
+Bluecard: Pokémon TCG- Colección Zacian ex de Paul Español 
+Bluecard: Pokémon TCG: Accesorios UPC Terapagos ex
+Bluecard: Pokémon TCG: Annihilape Ex Box Ingles Ingles
+Bluecard: Pokémon TCG: Baraja League Battle Deck Gardevoir EX Inglés
+Bluecard: Pokémon TCG: Baraja League Battle Deck Miraidon ex - Ingles Miraidon EX - Ingles
+Bluecard: Pokémon TCG: Blister 3 Sobres Español - Fuerzas Temporales Fuerzas Temporales
+Bluecard: Pokémon TCG: Blister 3 Sobres Español - Llamas Obsidianas Llamas Obsidianas
+Bluecard: Pokémon TCG: Blister 3 Sobres Español Corona Astral 
+Bluecard: Pokémon TCG: Blister 3 Sobres Ingles - Temporal Forces Temporal Forces
+Bluecard: Pokémon TCG: Blister 3 Sobres Inglés - Paldea Evolved Paldea Evolved
+Bluecard: Pokémon TCG: Blister 3 Sobres Inglés - Twilight Masquerade 
+Bluecard: Pokémon TCG: Blister 3 Sobres Inglés Stellar Crown 
+Bluecard: Pokémon TCG: Booster Bundle Destinos de Paldea 
+Bluecard: Pokémon TCG: Booster Bundle Español Corona Astral 
+Bluecard: Pokémon TCG: Booster Bundle Mascarada Crepuscular Español
+Bluecard: Pokémon TCG: Booster Bundle Obsidian Flames 
+Bluecard: Pokémon TCG: Booster Bundle Stellar Crown (Inglés) 
+Bluecard: Pokémon TCG: Booster Bundle Twilight Masquerade Ingles
+Bluecard: Pokémon TCG: Caja Entrenador de Elite Mascarada Crepuscular Español
+Bluecard: Pokémon TCG: Caja de Entrenador Elite Fuerzas Temporales Español Ferroverdor
+Bluecard: Pokémon TCG: Caja de Entrenador de Elite Destinos de Paldea 
+Bluecard: Pokémon TCG: Caja de entrenador de Elite Corona Astral 
+Bluecard: Pokémon TCG: Charizard EX Super-Premium Collection 
+Bluecard: Pokémon TCG: Colección Palafin EX 
+Bluecard: Pokémon TCG: Colisión Paradojica Tin - Ferroverdor Ferroverdor
+Bluecard: Pokémon TCG: Colisión Paradojica Tin - Ondulagua Ondulagua
+Bluecard: Pokémon TCG: Deluxe Battle Deck - Ninetales Ninetales
+Bluecard: Pokémon TCG: Deluxe Battle Deck - Zapdos Zapdos
+Bluecard: Pokémon TCG: Elite Trainer Box Stellar Crown 
+Bluecard: Pokémon TCG: Elite Trainer Box Temporal Forces Inglés Walking Wake
+Bluecard: Pokémon TCG: Elite Trainer Box Twilight Masquerade Ingles
+Bluecard: Pokémon TCG: Fabula Sombria - Caja Entrenador Elite Español
+Bluecard: Pokémon TCG: Fabula Sombría - Blister 3 Sobres Español
+Bluecard: Pokémon TCG: Fabula Sombría - Colección Ilustración Kingambit Español
+Bluecard: Pokémon TCG: Fulgor Negro - Binder Collection (ESP) 
+Bluecard: Pokémon TCG: Fulgor Negro - Elite Trainer Box (ESP) 
+Bluecard: Pokémon TCG: Lata Apilable Español Español
+Bluecard: Pokémon TCG: Lata Collector Chest 2023 - Español 2023 - Español
+Bluecard: Pokémon TCG: Lata Collector Chest 2023 - Inglés 2023 - Ingles
+Bluecard: Pokémon TCG: League Battle Deck Charizard ex - Español 
+Bluecard: Pokémon TCG: League Battle Deck Charizard ex - Inglés 
+Bluecard: Pokémon TCG: Megaevolution - Booster Box (ING) Preventa
+Bluecard: Pokémon TCG: Mini Tin Español - Destinos de Paldea Destinos de Paldea
+Bluecard: Pokémon TCG: Miraidon ex Battle Deck Miraidon
+Bluecard: Pokémon TCG: Ogerpon EX Colección Premium - Español 
+Bluecard: Pokémon TCG: Ogerpon EX Premium Collection - Inglés 
+Bluecard: Pokémon TCG: Paldea Vibrante Mini Tin Español
+Bluecard: Pokémon TCG: Paldean Fates Tin - Charizard ex Charizard EX
+Bluecard: Pokémon TCG: Paldean Fates Tin - Great Tusk ex Great Tusk EX
+Bluecard: Pokémon TCG: Paldean Fates Tin - Iron Treads ex Iron Treads EX
+Bluecard: Pokémon TCG: Paradox Clash Tin - Iron Leaves Iron Leaves
+Bluecard: Pokémon TCG: Paradox Clash Tin - Walking Wake Walking Wake
+Bluecard: Pokémon TCG: Prismatic Evolution Special Collection Pouch (Inglés) 
+Bluecard: Pokémon TCG: Shrouded Fable (Inglés) - Booster Bundle Inglés
+Bluecard: Pokémon TCG: Shrouded Fable - Blister 3 Sobres Inglés
+Bluecard: Pokémon TCG: Shrouded Fable - Elite Trainer Box Inglés
+Bluecard: Pokémon TCG: Shrouded Fable - Mini Tin Inglés
+Bluecard: Pokémon TCG: Shrouded Fable Special Illustration Collection - Greninja ex Greninja
+Bluecard: Pokémon TCG: Shrouded Fable Special Illustration Collection - Kingdra ex Kingdra
+Bluecard: Pokémon TCG: Slashing Legends - Tin Case (Inglés) Koraidon Koraidon ex
+Bluecard: Pokémon TCG: Sobre Gachera Corona Astral Español 
+Bluecard: Pokémon TCG: Sobre Ganchera Fuerzas Temporales Español Español
+Bluecard: Pokémon TCG: Sobre Ganchera Llamas Obsidianas - Español Español
+Bluecard: Pokémon TCG: Sobre Ganchera Obsidian Flames 
+Bluecard: Pokémon TCG: Sobre Ganchera Stellar Crown Inglés 
+Bluecard: Pokémon TCG: Sobre Ganchera Temporal Forces - Inglés Ingles
+Bluecard: Pokémon TCG: Sobre Ganchera Twilight Masquerade Ingles
+Bluecard: Pokémon TCG: Sobre Mascarada Crepuscular Español
+Bluecard: Pokémon TCG: Sobre Obsidian Flames 
+Bluecard: Pokémon TCG: Sobre Twilight Masquerade 
+Bluecard: Pokémon TCG: Stacking Tin (Q1 2024) Inglés
+Bluecard: Pokémon TCG: Tin Mega Charizard X ex X EX
+Bluecard: Pokémon TCG: Tin Mega Charizard Y ex Y EX
+Bluecard: Pokémon TCG: Victini ex Battle Deck Victini
+Bluecard: Pokémon TCG: e-Nigma Premium Tournament Collection Español
+Bluecard: Pokémon TGC - Trick or Trade Booster Bundle 
+Bluecard: [PREVENTA] One Piece CG - Tin Pack Set Vol.1 
+Bluecard: [PREVENTA] One Piece TCG: Illustration Box Vol. 5 (IB05) 
+Bluecard: [PREVENTA] One Piece TCG: Illustration Box Vol. 6 (IB06) 
+Bluecard: [Preventa] One Piece Card Game - Illustration Box Vol.3 
+Bluecard: [Preventa] One Piece Card Game - Illustration Box Vol.4 
 CaTeams Games: [PREVENTA] Pokémon TCG Mega Greninja ex League Battle Deck (2026)
 Casa de Juegos: Pokémon TCG – Hisuian Electrode V Box (Español)
 Casa de Juegos: Pokémon TCG – Lillie Premium Tournament Collection (Inglés)
@@ -191,140 +340,14 @@ Donquixotetcgs: Preventa - Pokemon TCG - Ultra Premium Collection Mega Charizard
 Donquixotetcgs: Preventa - Pokemon TCG - Unova Mini Tin Display (Ingles)
 Donquixotetcgs: Preventa - Pokemon TCG -Pokemon Day 2026 Collection (ingles)
 Donquixotetcgs: Preventa Pokemon - Hop's Zacian Ex Box (ingles)
-Dust2: (PREVENTA) Pokemon TCG: Premium Poster Collection Mega Gardevoir Ingles
-Dust2: (PREVENTA) Pokemon TCG: Premium Poster Collection Mega Lucario Ingles
-Dust2: Colección Premium Card One Piece Film Red Edition Inglés
-Dust2: OPEN BOX Mousepad Gamer Razer Gigantus V2 XXL Pokémon Gengar
-Dust2: OPEN BOX Pokemon TCG S&V – Unova Poster Collection Ingles – Pokemon
-Dust2: OPEN BOX Pokémon TCG Mega Battle Deck Mega Diancie ex Inglés
-Dust2: OPEN BOX Pokémon TCG Paldean Fates Tin Español
-Dust2: One Piece TCG: Devil Fruits Collection Vol. 2 – DF02
-Dust2: One Piece TCG: Devil Fruits Collection Vol. 3 – DF03
-Dust2: One Piece TCG: Don!! Storage Box
-Dust2: One Piece TCG: Illustration Box  IB-03
-Dust2: One Piece TCG: Illustration Box  IB-04
-Dust2: One Piece TCG: Illustration Box IB-05
-Dust2: One Piece TCG: Illustration Box IB-06
-Dust2: One Piece TCG: Illustration Box IB-07
-Dust2: One Piece TCG: Illustration Box IB-08
-Dust2: One Piece TCG: Learn Together Deck Set Display, LT-01
-Dust2: One Piece TCG: Limited Card Case – Monkey D. Luffy Display
-Dust2: One Piece TCG: Mini Tin Pack Set – TS02 modelo 1 al azar
-Dust2: One Piece TCG: Premium Card Collection Best Selection Vol 6
-Dust2: One Piece TCG: Premium Card Collection Best Selection Vol, 3
-Dust2: One Piece TCG: Premium Card Collection Best Selection Vol. 4
-Dust2: One Piece TCG: Premium Card Collection – FEST 23-24 Edition
-Dust2: One Piece TCG: Storage Box – Standard Black
-Dust2: Pokemon Iono Premium Tournament Collection
-Dust2: Pokemon TCG  Paradox Rift Build and Battle Box INGLÉS
-Dust2: Pokemon TCG Caja de Entrenador Elite Fuerzas Temporales ESP
-Dust2: Pokemon TCG Charizard ex Super Premium Collection Español
-Dust2: Pokemon TCG Charizard ex Super Premium Collection Ingles
-Dust2: Pokemon TCG First Partner Illustration Collection 3 ESPAÑOL
-Dust2: Pokemon TCG First Partner Illustration Collection 3 INGLES
-Dust2: Pokemon TCG Iono’s Bellibolt EX Premium Collection Ingles
-Dust2: Pokemon TCG Mega Charizard X ex Ultra Premium Collection ESP
-Dust2: Pokemon TCG Mega Charizard X ex Ultra Premium Collection ING
-Dust2: Pokemon TCG Mega Greninja Ex Premium Collection Box ESPAÑOL
-Dust2: Pokemon TCG Mega Greninja Ex Premium Collection Box INGLES
-Dust2: Pokemon TCG MegaEvolution Elite Trainer Box Inglés Gardevoir
-Dust2: Pokemon TCG MegaEvolution – Booster Bundle Español
-Dust2: Pokemon TCG MegaEvolution – Booster Bundle Inglés
-Dust2: Pokemon TCG MegaEvolution – Display 36 Sobres Español
-Dust2: Pokemon TCG MegaEvolution – Display 36 Sobres Inglés
-Dust2: Pokemon TCG MegaEvolution – Elite Trainer Box Inglés Lucario
-Dust2: Pokemon TCG MegaEvolution, ETB Español Gardevoir
-Dust2: Pokemon TCG MegaEvolution, Elite Trainer Box Español Lucario
-Dust2: Pokemon TCG Paldean Fates Tin Español Al Azar
-Dust2: Pokemon TCG Paradox Rift Elite Trainer Box Ferrosaco Español
-Dust2: Pokemon TCG Poke Ball Tin (Q4 2024) Español
-Dust2: Pokemon TCG Poke Ball Tin (Q4 2024) Ingles
-Dust2: Pokemon TCG Premium Poster Collection Mega Gardevoir Español
-Dust2: Pokemon TCG S&V – Unova Poster Collection Español
-Dust2: Pokemon TCG S&V – Unova Poster Collection Ingles
-Dust2: Pokemon TCG Slashing Legends Tin Case, Koraidon Español
-Dust2: Pokemon TCG Slashing Legends Tin Case, Koraidon Ingles
-Dust2: Pokemon TCG Temporal Forces ETB Ferroverdor Ex Español
-Dust2: Pokemon TCG Unova Victini Illustration Collection Box Ingles
-Dust2: Pokemon TCG:  Paldea Evolved Checklane Blister INGLÉS
-Dust2: Pokemon TCG: Archaludon 2-pack Blister
-Dust2: Pokemon TCG: Build & Battle Box Scarlet and Violet Ingles
-Dust2: Pokemon TCG: Crown Zenith Mini Tin Español X1 (Al Azar)
-Dust2: Pokemon TCG: Crown Zenith- Booster Bundle
-Dust2: Pokemon TCG: Cynthia’s Garchomp ex Premium Collection Ingles
-Dust2: Pokemon TCG: Dragapult ex League Battle Deck Español
-Dust2: Pokemon TCG: Dragapult ex League Battle Deck Inglés
-Dust2: Pokemon TCG: Enhanced 2-Pack Blister (Oct 2025) Ingles
-Dust2: Pokemon TCG: First Partner Illustration Collection Vol 2 ESP
-Dust2: Pokemon TCG: First Partner Illustration Collection Vol 2 ING
-Dust2: Pokemon TCG: Houndstone Ex Box Case
-Dust2: Pokemon TCG: Iono’s Bellibolt Ex Premium Collection- Español
-Dust2: Pokemon TCG: Lillie Premium Tournament Collection Español
-Dust2: Pokemon TCG: Lillie Premium Tournament Collection Inglés
-Dust2: Pokemon TCG: Luminose City Mini Tin ESPAÑOL (Al Azar)
-Dust2: Pokemon TCG: Luminose City Mini Tin INGLES (Al Azar)
-Dust2: Pokemon TCG: Mega Charizard Tin Inglés
-Dust2: Pokemon TCG: Mega Forces Tin 2026, Español
-Dust2: Pokemon TCG: Mega Kangaskhan ex Box Ingles
-Dust2: Pokemon TCG: Mega Latias Ex Box Español
-Dust2: Pokemon TCG: Mega Latias Ex Box Ingles
-Dust2: Pokemon TCG: Mega Lucario Ex League Battle Deck ESPAÑOL
-Dust2: Pokemon TCG: Mega Lucario Ex League Battle Deck INGLÉS
-Dust2: Pokemon TCG: Mega Moonlit Tin ESPAÑOL (Al Azar)
-Dust2: Pokemon TCG: Mega Moonlit Tin INGLES (Al Azar)
-Dust2: Pokemon TCG: Mega Venusaur ex Premium Collection Ingles
-Dust2: Pokemon TCG: Mega Zygarde – Ex Premium Collection Ingles
-Dust2: Pokemon TCG: MegaEvolution – Mini Tin Ingles
-Dust2: Pokemon TCG: Premium Poster Collection Mega Lucario Español
-Dust2: Pokemon TCG: Rival Battle Deck Marnie – Español
-Dust2: Pokemon TCG: Rival Battle Deck Marnie – Ingles
-Dust2: Pokemon TCG: Rival Battle Deck Steven – Español
-Dust2: Pokemon TCG: Rival Battle Deck Steven – Ingles
-Dust2: Pokemon TCG: S&V 3 Obsidian Flames Checklane Blister
-Dust2: Pokemon TCG: S&V Paldean Fates Booster Bundle Ingles
-Dust2: Pokemon TCG: Slashing Legends Tin Case, Zacian Español
-Dust2: Pokemon TCG: Slashing Legends Tin Case, Zacian Ingles
-Dust2: Pokemon TCG: Team Rocket’s Mewtwo ex Box Inglés
-Dust2: Pokemon TCG: Temporal Forces Booster Bundle Español
-Dust2: Pokemon TCG: Terapagos Ultra Premium Collection Español
-Dust2: Pokemon TCG: Terapagos Ultra Premium Collection Inglés
-Dust2: Pokemon TCG: Twilight Masquerade Booster Display Box Español
-Dust2: Pokemon TCG: Unova Illustration Collection Español
-Dust2: Pokemon Tcg Display 36 Sobres Paldea Evolved Booster ESPAÑOL
-Dust2: Pokemon Tcg: Mabosstiff Ex Box Inglés
-Dust2: Pokemon Team Rocket’s Moltres ex Ultra Premium Collection EN
-Dust2: Pokemon: Hydreigon ex & Dragapult ex Premium Collection ING
-Dust2: Pokemon: Pokemon Day 2026 Collection Ingles
-Dust2: Pokemon: Salamence ex & Reshiram ex Premium Collection ING
-Dust2: Pokémon Combined Powers Premium Collection Inglés
-Dust2: Pokémon Go Premiun Collection Radiant Eevee Inglés
-Dust2: Pokémon Illustration Collection Greninja ex Fábula Sombría
-Dust2: Pokémon Illustration Collection Kingambit Fábula Sombría ESP
-Dust2: Pokémon Illustration Collection Kingambit Shrouded Fable ING
-Dust2: Pokémon Illustration Collection Kingdra ex Fábula Sombría
-Dust2: Pokémon TCG: Bloodmoon Ursaluna ex Box INGLÉS
-Dust2: Pokémon TCG: Charizard Ex Special Collection Español
-Dust2: Pokémon TCG: Charizard Ex Special Collection Ingles
-Dust2: Pokémon TCG: Charizard ex League Battle Deck INGLÉS
-Dust2: Pokémon TCG: First Partner Illustration Collection Español
-Dust2: Pokémon TCG: Grand Adventure Collection INGLÉS
-Dust2: Pokémon TCG: Mega Battle Deck, Mega Diance ex Español
-Dust2: Pokémon TCG: Mega Battle Deck, Mega Diancie ex, Inglés
-Dust2: Pokémon TCG: Mega Battle Deck, Mega Gengar ex Español
-Dust2: Pokémon TCG: Mega Battle Deck, Mega Gengar ex, Inglés
-Dust2: Pokémon TCG: MegaEvolution 3-Pack Blister Español
-Dust2: Pokémon TCG: MegaEvolution 3-Pack Blister Ingles
-Dust2: Pokémon TCG: Mini Tin – Fábula Sombría Español
-Dust2: Pokémon TCG: Mini Tin – Shrouded Fable Inglés
-Dust2: Pokémon TCG: Ogerpon ex Premium Collection INGLÉS
-Dust2: Pokémon TCG: Scarlet y Violet – Shrouded Fable ETB Ingles
-Dust2: Pokémon TCG: Trick or Trade BOOster Bundle Ingles
-Dust2: Pokémon TCG: Twilight Masquerade Booster Bundle Español
-Dust2: Pokémon TCG: Twilight Masquerade Booster Bundle Inglés
-Dust2: Pokémon TCG: Twilight Masquerade Elite Trainer Box Español
-Dust2: Pokémon TCG: Twilight Masquerade Elite Trainer Box Ingles
-Dust2: Sobre Pokémon TCG: Temporal Forces Booster Ingles
-Dust2: Temporal Forces Booster Box 36 sobres Pokemon Ingles
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 INGLES
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q2 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 INGLES
+Drawn Maipú: Pokemon TCG: Blaziken ex & Volcanion ex Premium Collection INGLES
+Drawn Maipú: Pokemon TCG: Greninja & Kingdra ex Special Collection INGLES
+Drawn Maipú: Pokemon TCG: Venusaur & Blastoise ex Premium Collection INGLES
 Dyskeu: (Preventa) Pokémon TCG: First Partner- Illustration Collection  (Series 3)- Inglés
 Dyskeu: (Preventa)Pokémon TCG: Colección de Ilustración de Primeros Compañeros (serie 3) – Español
 Dyskeu: ONE PIECE CARD GAME: Heroines edition sobre
@@ -435,6 +458,7 @@ Filecity: Pokémon TCG: Mega Greninja EX Premium Collection (INGLÉS).
 Filecity: Pokémon TCG: Mega Lucario EX League Battle Deck Case (Inglés)
 Filecity: Pokémon TCG: Mega Lucario ex Figure Collection
 Filecity: Pokémon TCG: Mega Zygarde ex Premium Collection
+Flexogames: Pokemon TCG: Deck Crafter's Collection
 Funnyko: Blind Box  Pokémon Terrarium Collection 12 Re-Ment
 Funnyko: Blind Box Pokémon Circular Diorama Collection Re-Ment
 Funnyko: Blind Box Pokémon Forest 7 Re-Ment 
@@ -476,27 +500,3 @@ Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Great ball
 Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Moon Ball 
 Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Pokeball 
 Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Premiere ball 
-Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Ultra ball 
-Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Great ball 
-Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Moon Ball 
-Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Pokeball 
-Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Premiere ball 
-Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Ultra ball 
-Gameofmagictienda: PKM TCG  Tapu Koko ex Battle Deck Español 
-Gameofmagictienda: PKM TCG  Tapu Koko ex Battle Deck Inglés 
-Gameofmagictienda: PKM TCG - Iono's Bellibolt EX Premium Collection Ingles 
-Gameofmagictienda: PKM TCG Azure Legends Tin - Dialga Ex Español 
-Gameofmagictienda: PKM TCG Azure Legends Tin - Dialga Ex Ingles 
-Gameofmagictienda: PKM TCG Azure Legends Tin - Kyogre Ex Español 
-Gameofmagictienda: PKM TCG Azure Legends Tin - Kyogre Ex Ingles 
-Gameofmagictienda: PKM TCG Azure Legends Tin - Xerneas Ex Ingles 
-Gameofmagictienda: PKM TCG Azure Legends Tin - XerneasEx Español 
-Gameofmagictienda: PKM TCG Blooming Waters Premium Collection 
-Gameofmagictienda: PKM TCG Charizard Ex Special Collection Español 
-Gameofmagictienda: PKM TCG Charizard Ex Special Collection Inglés 
-Gameofmagictienda: PKM TCG Hop's Zacian ex Box Español 
-Gameofmagictienda: PKM TCG Hop's Zacian ex Box Ingles 
-Gameofmagictienda: PKM TCG Iron Leaves ex Battle Deck Español 
-Gameofmagictienda: PKM TCG Iron Leaves ex Battle Deck Inglés 
-Gameofmagictienda: PKM TCG Mega Greninja ex Premium Collection Español 
-Gameofmagictienda: PKM TCG Mega Greninja ex Premium Collection Ingles 
