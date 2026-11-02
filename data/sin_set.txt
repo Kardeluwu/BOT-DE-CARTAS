@@ -52,7 +52,6 @@ AO Geek Store: Pokémon TCG Rival Battle Deck - Marnie - Español
 AO Geek Store: Pokémon TCG – Rival Battle deck Marnie (ingles)
 AO Geek Store: Premium Card Collection : ONE PIECE FILM RED Edition
 Addictionmodel: Pokemon TCG: Mega Charizard X EX Ultra-Premium Collection(INGLES)
-Addictionmodel: Pokemon TCG: Team Rocket's Mewtwo ex League Battle Deck - ESPAÑOL
 Addictionmodel: Pokemon TCG: Team Rocket's Mewtwo ex League Battle Deck - INGLÉS
 Addictionmodel: Pokémon TCG: Mega Lucario ex Figure Collection – ESPAÑOL
 Apolostore: Pokémon TCG Cynthia’s Garchomp EX Premium Collection
@@ -500,3 +499,4 @@ Dyskeu: Pokémon Caja Mega-Latias Ex Español
 Dyskeu: Pokémon Caja Mega-Latias Ex Inglés
 Dyskeu: Pokémon Caja de Entrenador Élite de Héroes Ascendidos – Español
 Dyskeu: Pokémon Charizard Ex Colección Especial Español
+Dyskeu: Pokémon Charizard Lata Paldean Fates Español
