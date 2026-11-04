@@ -238,6 +238,41 @@ def detect_platform(base):
 READERS = {"shopify": read_shopify, "woo": read_woo, "sitemap": read_sitemap}
 
 
+def quick_fetch(st, state):
+    """Revision rapida: solo los productos mas nuevos de la tienda (1 pagina).
+    Sirve para pillar lanzamientos al tiro en tiendas grandes que no alcanzan a leerse completas."""
+    base = st["url"].rstrip("/")
+    plat = st.get("platform", "auto")
+    if plat == "auto":
+        plat = state.get("platforms", {}).get(base)
+    items = []
+    if plat == "woo":
+        for p in get_json(f"{base}/wp-json/wc/store/v1/products?per_page=100&orderby=date&order=desc"):
+            pr = p.get("prices") or {}
+            try:
+                price = int(pr.get("price")) / 10 ** int(pr.get("currency_minor_unit", 0))
+            except (TypeError, ValueError):
+                continue
+            if price > 0:
+                imgs = p.get("images") or []
+                items.append({"name": unescape(p.get("name", "")), "url": p.get("permalink"), "price": price,
+                              "stock": bool(p.get("is_in_stock")), "img": imgs[0].get("src") if imgs else None})
+    elif plat == "shopify":
+        try:
+            data = get_json(f"{base}/collections/all/products.json?sort_by=created-descending&limit=100")
+        except Exception:
+            data = get_json(f"{base}/products.json?limit=250")
+        for p in data.get("products", []):
+            vs = p.get("variants") or []
+            prices = [float(v["price"]) for v in vs if v.get("price")]
+            if prices:
+                imgs = p.get("images") or []
+                items.append({"name": p.get("title", ""), "url": f"{base}/products/{p.get('handle')}",
+                              "price": min(prices), "stock": any(v.get("available") for v in vs),
+                              "img": imgs[0].get("src") if imgs else None})
+    return items
+
+
 def fetch_store(st, state):
     base = st["url"].rstrip("/")
     plat = st.get("platform", "auto")
@@ -274,10 +309,11 @@ TYPES = [
     ("Blister", r" blister| checklane"),
     ("Tin", r" tin | lata | latas | mini tin"),
     ("Booster Pack", r" booster pack| sobres? | sleeved booster"),
+    ("Special Set", r" special set| premium set| gift set| set especial| set premium| anniversary set| double pack"),
     ("Coleccion", r" collection| coleccion| box | caja "),
 ]
 TYPES = [(n, re.compile(p)) for n, p in TYPES]
-VARIANT_TYPES = {"Coleccion", "Premium Collection", "Tin", "Battle Deck"}
+VARIANT_TYPES = {"Coleccion", "Special Set", "Premium Collection", "Tin", "Battle Deck"}
 LANGS = [("ES", re.compile(r" (espanol|esp|castellano|spanish|es) ")),
          ("EN", re.compile(r" (ingles|ing|english|eng|en) ")),
          ("JP", re.compile(r" (japones|jp|jap|japanese|japon|jpn) "))]
@@ -397,6 +433,38 @@ def diff(old, new, groups):
     return events
 
 
+def send_phone(events):
+    """Notificaciones push al celular con la app ntfy (gratis). Usa el secreto NTFY_TOPIC."""
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic:
+        return
+    only_watch = CFG.get("phone_only_watch", True)
+    sel = [e for e in events if e[1].get("watch") or not only_watch]
+    if not sel:
+        return
+    site = CFG.get("site_url", "https://kardeluwu.github.io/BOT-DE-CARTAS/")
+    names = {"nuevo": "Nuevo", "tienda": "Otra tienda", "repuesto": "Repuso", "baja": "Bajó"}
+    msgs = []
+    for kind, l, o in sel[:5]:
+        txt = f"{l['store']} · {clp(l['price'])}" + ("" if l["stock"] else " · sin stock aún")
+        if kind == "baja":
+            txt += f" (antes {clp(o['price'])})"
+        msgs.append({"topic": topic, "title": f"{names[kind]}: {l['label']}"[:200], "message": txt,
+                     "click": l["url"], "tags": ["star" if l.get("watch") else "flower_playing_cards"],
+                     "priority": 4 if l.get("watch") else 3})
+    if len(sel) > 5:
+        msgs.append({"topic": topic, "title": f"…y {len(sel) - 5} avisos más", "message": "Toca para ver la página",
+                     "click": site})
+    for m in msgs:
+        req = urllib.request.Request("https://ntfy.sh/", data=json.dumps(m).encode("utf-8"),
+                                     headers={"Content-Type": "application/json", "User-Agent": UA})
+        try:
+            urllib.request.urlopen(req, timeout=15)
+        except Exception as e:
+            print("ntfy error", e, file=sys.stderr)
+        time.sleep(0.5)
+
+
 def send_discord(events, groups):
     hook = os.environ.get("DISCORD_WEBHOOK", "").strip()
     limit = CFG.get("max_alerts_per_run", 40)
@@ -497,27 +565,41 @@ def main():
 
     def job(st):
         t0 = time.time()
-        st["_deadline"], st["_partial"], st["_cycle_done"] = t0 + budget, False, False
+        st["_deadline"], st["_partial"], st["_cycle_done"], st["_quick"] = t0 + budget, False, False, False
         try:
-            return st, fetch_store(st, state), None, time.time() - t0
+            if st["name"] in skipped:  # tienda grande fuera de turno: solo lo mas nuevo
+                st["_quick"] = True
+                return st, quick_fetch(st, state), None, time.time() - t0
+            fresh = []
+            if state["resume"].get(st["url"].rstrip("/"), 1) != 1:  # lectura a medias: igual mira lo nuevo
+                try:
+                    fresh = quick_fetch(st, state)
+                except Exception:
+                    pass
+            items = fetch_store(st, state)
+            seen_urls = {i.get("url") for i in items}
+            return st, items + [i for i in fresh if i.get("url") not in seen_urls], None, time.time() - t0
         except Exception as e:
             return st, None, e, time.time() - t0
 
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(max_workers=max(16, CFG.get("parallel", 16))) as pool:
-        results = list(pool.map(job, todo))
+        results = list(pool.map(job, todo + [st for st in CFG["stores"] if st["name"] in skipped]))
 
     for st, items, err, secs in results:
+        if err is not None and st.get("_quick"):
+            continue  # la revision rapida fallo: se mantienen sus datos anteriores
         if err is not None:
             failed.add(st["name"])
             report.append(f"✗ {st['name']}: {type(err).__name__} {err}"[:200])
             continue
         if st["_partial"]:
             partial.add(st["name"])
-        if not st["_partial"] or st.get("_cycle_done"):
-            seeded[st["url"]] = True  # ya se leyo completa al menos una vez
-        prev_n = meta.get(st["url"], {}).get("n", 0)
-        meta[st["url"]] = {"n": max(len(items), prev_n) if st["_partial"] else len(items), "last": NOW}
+        if not st["_quick"]:
+            if not st["_partial"] or st.get("_cycle_done"):
+                seeded[st["url"]] = True  # ya se leyo completa al menos una vez
+            prev_n = meta.get(st["url"], {}).get("n", 0)
+            meta[st["url"]] = {"n": max(len(items), prev_n) if st["_partial"] else len(items), "last": NOW}
         kept = 0
         for it in items:
             if not it.get("url") or not it.get("name"):
@@ -535,9 +617,10 @@ def main():
                               "seen": seen} | c
             kept += 1
         report.append(f"✓ {st['name']}: {len(items)} productos, {kept} sellados ({secs:.0f}s)"
-                      + (" · parcial, sigue la proxima vez" if st["_partial"] else ""))
+                      + (" · parcial, sigue la proxima vez" if st["_partial"] else "")
+                      + (" · solo lo más nuevo" if st["_quick"] else ""))
     if skipped:
-        report.append(f"· {len(skipped)} tiendas grandes esperan su turno (cada {big_every // 60} min)")
+        report.append(f"· {len(skipped)} tiendas grandes: revisión rápida de lo nuevo, completa cada {big_every // 60} min")
     # si una tienda fallo o no le tocaba, se mantienen sus datos anteriores para no inventar avisos
     for url, l in old.items():
         if (l["store"] in failed or l["store"] in skipped or l["store"] in partial) and url not in new:
@@ -556,6 +639,10 @@ def main():
             send_discord(events, groups)
         except Exception as e:  # un error de Discord nunca debe impedir guardar los datos
             print("Error enviando a Discord:", type(e).__name__, e, file=sys.stderr)
+        try:
+            send_phone(events)
+        except Exception as e:
+            print("Error enviando al celular:", type(e).__name__, e, file=sys.stderr)
 
     # historial: precio minimo con stock de cada ficha, uno por dia (ultimos N dias)
     hist = state.setdefault("hist", {})
