@@ -268,6 +268,7 @@ Collector Center: One Piece TCG: Illustration Box (IB-07)
 Collector Center: One Piece TCG: Illustration Box (IB-08)
 Collector Center: Pokemon TCG Mega Zygarde - ex Premium Collection - (Español)
 Collector Center: Pokemon TCG Pokeball Tin (Q4 2025) (Español)
+Collector Center: Pokemon TCG Pokemon Day 2026 Collection - Español
 Collector Center: Pokemon TCG Pokemon Day 2026 Collection - Ingles
 Collector Center: Pokémon: Lumiose City Mini Tin (diseño al azar) - INGLÉS
 Collector Center: Pokémon: Mega Moonlit Tin (MEGA CLEFABLE) - Inglés
@@ -498,4 +499,3 @@ Dyskeu: Pokémon Caja Mega-Latias Ex Español
 Dyskeu: Pokémon Caja Mega-Latias Ex Inglés
 Dyskeu: Pokémon Caja de Entrenador Élite de Héroes Ascendidos – Español
 Dyskeu: Pokémon Charizard Ex Colección Especial Español
-Dyskeu: Pokémon Charizard Lata Paldean Fates Español
