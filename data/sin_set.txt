@@ -1,4 +1,31 @@
 # Productos sin set reconocido. Agrega alias en sets.json para agruparlos mejor.
+AFK Store: Arceus V Figure Collection Box Pokemon Brilliant Stars
+AFK Store: Booster Box Mega Evolutions (Jap) Pokemon Center
+AFK Store: Booster Box Pokemon Japanese Shiny Star V
+AFK Store: Box Cylizar Ex Pokemon TCG: Scarlet and Violet
+AFK Store: Build & Battle Stadium Pokemon Evolving Skies
+AFK Store: Charizard [Box Topper] #9 Pokemon Skyridge
+AFK Store: Charizard [Box Topper] #S1 Pokemon Legendary Collection
+AFK Store: Donquixote Rosinante (One Piece Japanese Version 2nd Anniversary Set)
+AFK Store: Dragonite Vstar Box Pokemon Go
+AFK Store: Elite Trainer Box Plus: Zacian Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Plus: Zamazenta Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Pokemon Battle Styles
+AFK Store: Elite Trainer Box Pokemon Go
+AFK Store: Elite Trainer Box Pokemon Guardians Rising
+AFK Store: Elite Trainer Box Pokemon Team Up
+AFK Store: In Two Years!! At the Sabaody Archipelago!! (One Piece Japanese Version 2nd Anniversary Set) - One Piece Promotion Cards (OP-PR)
+AFK Store: Lonchera de Colección Pokemon Tcg
+AFK Store: Mewtwo Ex Box Pokemon TCG: Team Rocket’s
+AFK Store: Mewtwo Star - Gift Box Mew - Lucario (Pokemon Star)
+AFK Store: Monkey.D.Luffy (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Pokemon Day 2026 Collection Box
+AFK Store: Pokemon TCG Charizard x Super Premium Collection
+AFK Store: Premium Collection Box [Radiant Eevee] Pokemon GO
+AFK Store: Shanks (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Sobre (Booster Pack) Pokemon Base Set
+AFK Store: Sobres Pokemon Go
+AFK Store: TIN POKEMON TCG STACKING 2024
 AO Geek Store: CHARIZARD EX SPECIAL COLLECTION POKÉMON TCG
 AO Geek Store: ONE PIECE CARD GAME English Version 1st Anniversary Set
 AO Geek Store: ONE PIECE CARD GAME Japanese 2nd Anniversary Set
@@ -225,6 +252,13 @@ Casa de Juegos: Pokémon TCG – Slashing Legends Tin Koraidon ex y Zacian ex (E
 Casa de Juegos: Pokémon TCG – Team Rocket's Mewtwo ex Box (Inglés / Español)
 Casa de Juegos: Pokémon TCG – Team Rocket's Mewtwo ex League Battle Deck (Inglés)
 Casa de Juegos: Pokémon TCG – Twilight Masquerade Sobres (Español)
+Charizstore: ONE PIECE : IB08 Illustration Box Vol.8
+Charizstore: Pokemon TCG Mega Latias ex Box – Español
+Charizstore: Pokemon TCG Mega Latias ex Box – Inglés
+Charizstore: Pokémon Day 2026 Collection – INGLES
+Charizstore: Pokémon TCG Shrouded Fable Kingambit Box – Español
+Charizstore: Pokémon Tcg Hidden Fates Premium Power Collection  – Español
+Charizstore: SET DADOS POKÉMON (DADOS ETB)
 Chikov Store: League Battle Deck Pokemon TCG: Mega Lucario EX
 Chikov Store: Sobre Pokemon
 ChileManga: Pokemon Day 2026 Collection - Español
@@ -298,6 +332,14 @@ Donquixotetcgs: Preventa - Pokemon TCG - Unova Mini Tin Display (Ingles)
 Donquixotetcgs: Preventa - Pokemon TCG -Pokemon Day 2026 Collection (ingles)
 Donquixotetcgs: Preventa One Piece Card Game - Japanese 2nd Anniversary Set ingles
 Donquixotetcgs: Preventa Pokemon - Hop's Zacian Ex Box (ingles)
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 INGLES
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q2 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 INGLES
+Drawn Maipú: Pokemon TCG: Blaziken ex & Volcanion ex Premium Collection INGLES
+Drawn Maipú: Pokemon TCG: Greninja & Kingdra ex Special Collection INGLES
+Drawn Maipú: Pokemon TCG: Venusaur & Blastoise ex Premium Collection INGLES
 Dust2: (PREVENTA) Pokemon TCG: Premium Poster Collection Mega Gardevoir Ingles
 Dust2: (PREVENTA) Pokemon TCG: Premium Poster Collection Mega Lucario Ingles
 Dust2: Colección Premium Card One Piece Film Red Edition Inglés
@@ -457,45 +499,3 @@ Dyskeu: Pokémon Caja Mega-Latias Ex Inglés
 Dyskeu: Pokémon Caja de Entrenador Élite de Héroes Ascendidos – Español
 Dyskeu: Pokémon Charizard Ex Colección Especial Español
 Dyskeu: Pokémon Charizard Lata Paldean Fates Español
-Dyskeu: Pokémon Coleccion Premium de Bellibolt Ex de E-nigma Español
-Dyskeu: Pokémon Colección Ascenso Heroico  – Erika- Español
-Dyskeu: Pokémon Colección Ascenso Heroico  – Laureano – Español
-Dyskeu: Pokémon Colección de pegatinas tecnológicas de Héroes Ascendidos- Charmander – Español
-Dyskeu: Pokémon Colección de pegatinas tecnológicas de Héroes Ascendidos- Gastly – Español
-Dyskeu: Pokémon Colección de pines de lujo de los Primeros Socios de Héroes Ascendidos
-Dyskeu: Pokémon Colmilargo Lata Paldean Fates Español
-Dyskeu: Pokémon Corona Astral -Elite Trainer Box-Español
-Dyskeu: Pokémon Equipo Rocket Lata  Mewtwo Español
-Dyskeu: Pokémon Equipo Rocket Lata  Nidoking Español
-Dyskeu: Pokémon Equipo Rocket Lata Persian Español
-Dyskeu: Pokémon Ferrodada Lata Paldean Fates Español
-Dyskeu: Pokémon Heroes Ascendentes Caja Mega ex Mega Emboar – Español
-Dyskeu: Pokémon Heroes Ascendentes Caja Mega ex Mega Feraligatr – Español
-Dyskeu: Pokémon Heroes Ascendentes Caja Mega ex Mega Meganium – Español
-Dyskeu: Pokémon Llamarada Fantasmal Paquete de sobres de refuerzos
-Dyskeu: Pokémon Super Premium Collection Prismatic Evolution – Ingles
-Dyskeu: Pokémon TCG  Blister   Llamaradas Fantasmales Sneasel -Español
-Dyskeu: Pokémon TCG: Caos Creciente | Sobre Blíster | Español
-Dyskeu: Pokémon TCG: Caos Creciente | Sobre | Español
-Dyskeu: Pokémon TCG: Colección de Ilustración de Primeros Compañeros (serie 2) – Español
-Dyskeu: Pokémon TCG: Colección de Ilustración de Primeros Compañeros—Series 1
-Dyskeu: Pokémon TCG: Corona Astral | Sobre | Español
-Dyskeu: Pokémon TCG: Deck Crafter’s Collection – Español
-Dyskeu: Pokémon TCG: Deck Crafter’s Collection – Ingles
-Dyskeu: Pokémon TCG: Equilibrio Perfecto | Sobre | Español
-Dyskeu: Pokémon TCG: First Partner Illustration Collection- Series 1
-Dyskeu: Pokémon TCG: First Partner- Illustration Collection  (Series 2)- Inglés
-Dyskeu: Pokémon TCG: Origen Perdido | Sobre | Español
-Dyskeu: Pokémon TCG: Surging Spark | Sobre Blister | Español
-Dyskeu: Pokémon TCG: Tinieblas Umbrias | Sobre | Español
-Dyskeu: Pokémon Team Rocket Tin Nidoking Inglés
-Dyskeu: Pokémon Team Rocket Tin Persian Inglés
-Dyskeu: Pokémon Team Rocket’s Mewtwo ex League Battle Deck – Inglés
-El Arcanista: Prelanzamiento Pokémon TCG — Dominio Delta | Kit + 3 sobres adicionales - HORARIO PM
-El Reino de los Duelos: Mythical Pokemon Collection Box [Genesect] - Generations (GEN)
-El Reino de los Duelos: One Piece Card Game Double Pack Set Vol.12 DP-12
-El Reino de los Duelos: One Piece Card Game: (DF03) Devil Fruits Collection Vol.3
-El Reino de los Duelos: One Piece Card Game: Double Pack Set (DP-09)
-El Reino de los Duelos: One Piece Card Game: Tin Pack Set Vol.2 (TS02)
-El Reino de los Duelos: Pokémon TCG Deck Crafter's Collection 2026 Meowth ex Inglés
-El Reino de los Duelos: Pokémon TCG First Partner Illustration Collection Series 3 Español
