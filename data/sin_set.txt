@@ -40,9 +40,6 @@ AO Geek Store: Pokemon: Team Rocket's Moltres ex Ultra Premium Collection
 AO Geek Store: Pokémon TCG Mega Venusaur ex Premium Collection Ingles
 AO Geek Store: Premium Card Collection : ONE PIECE FILM RED Edition
 Addictionmodel: Pokemon TCG: Mega Charizard X EX Ultra-Premium Collection(INGLES)
-Apolostore: One Piece Card Game: English Version 1st Anniversary Set
-Apolostore: Pokémon TCG Cynthia’s Garchomp EX Premium Collection
-Apolostore: Preventa- Pokémon TCG Team Rocket’s Mewtwo EX Box
 Arcadia Collects: APERTURA EN VIVO Pokemon TCG - Series 2 First Partner Illustration Collection 30 Anniversary (ESPAÑOL)
 Arcadia Collects: APERTURA EN VIVO Pokemon TCG - Series 2 First Partner Illustration Collection 30 Anniversary (INGLES)
 Arcadia Collects: One Piece TCG: Devil Fruits Collection Vol.2 – Flame Flame Fruits INGLES
@@ -262,8 +259,6 @@ Collector Center: Pokemon TCG Pokemon Day 2026 Collection - Español
 Collector Center: Pokemon TCG Pokemon Day 2026 Collection - Ingles
 Collector Center: Pokémon: Lumiose City Mini Tin (diseño al azar) - INGLÉS
 Collector Center: Pokémon: Mega Moonlit Tin (MEGA CLEFABLE) - Inglés
-Dark Light Store: Elite Trainer Box – Pokemon Go
-Dark Light Store: Pokemon Day 2026 Collection – Inglés
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 2
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 3
 Decks Cards: One Piece Mystery Pin Badge Blind Box
@@ -499,3 +494,8 @@ Dyskeu: Pokémon Colección de pines de lujo de los Primeros Socios de Héroes A
 Dyskeu: Pokémon Colmilargo Lata Paldean Fates Español
 Dyskeu: Pokémon Corona Astral -Elite Trainer Box-Español
 Dyskeu: Pokémon Equipo Rocket Lata  Mewtwo Español
+Dyskeu: Pokémon Equipo Rocket Lata  Nidoking Español
+Dyskeu: Pokémon Equipo Rocket Lata Persian Español
+Dyskeu: Pokémon Ferrodada Lata Paldean Fates Español
+Dyskeu: Pokémon Heroes Ascendentes Caja Mega ex Mega Emboar – Español
+Dyskeu: Pokémon Heroes Ascendentes Caja Mega ex Mega Feraligatr – Español
