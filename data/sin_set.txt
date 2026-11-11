@@ -40,7 +40,6 @@ AO Geek Store: Pokemon: Team Rocket's Moltres ex Ultra Premium Collection
 AO Geek Store: Pokémon TCG Mega Venusaur ex Premium Collection Ingles
 AO Geek Store: Premium Card Collection : ONE PIECE FILM RED Edition
 Addictionmodel: Pokemon TCG: Mega Charizard X EX Ultra-Premium Collection(INGLES)
-Addictionmodel: Pokémon TCG: Mega Lucario ex Figure Collection – ESPAÑOL
 Apolostore: One Piece Card Game: English Version 1st Anniversary Set
 Apolostore: Pokémon TCG Cynthia’s Garchomp EX Premium Collection
 Apolostore: Preventa- Pokémon TCG Team Rocket’s Mewtwo EX Box
@@ -499,3 +498,4 @@ Dyskeu: Pokémon Colección de pegatinas tecnológicas de Héroes Ascendidos- Ga
 Dyskeu: Pokémon Colección de pines de lujo de los Primeros Socios de Héroes Ascendidos
 Dyskeu: Pokémon Colmilargo Lata Paldean Fates Español
 Dyskeu: Pokémon Corona Astral -Elite Trainer Box-Español
+Dyskeu: Pokémon Equipo Rocket Lata  Mewtwo Español
