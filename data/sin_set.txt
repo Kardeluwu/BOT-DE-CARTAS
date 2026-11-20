@@ -42,6 +42,7 @@ AO Geek Store: Premium Card Collection : ONE PIECE FILM RED Edition
 Addictionmodel: Pokemon TCG: Mega Charizard X EX Ultra-Premium Collection(INGLES)
 Addictionmodel: Pokemon TCG: Team Rocket's Mewtwo ex League Battle Deck - ESPAÑOL
 Addictionmodel: Pokemon TCG: Team Rocket's Mewtwo ex League Battle Deck - INGLÉS
+Addictionmodel: Pokémon TCG: Mega Lucario ex Figure Collection – ESPAÑOL
 Apolostore: Binder Collection Pokémon 30 Anniversary
 Apolostore: One Piece Card Game: English Version 1st Anniversary Set
 Apolostore: Pokémon TCG Cynthia’s Garchomp EX Premium Collection
@@ -498,4 +499,3 @@ Dyskeu: Pokémon  Lonchera Coleccionista Q3 2025
 Dyskeu: Pokémon Battle Deck Mega-Diance Ex Inglés
 Dyskeu: Pokémon Battle Deck Mega-Gengar Ex Inglés
 Dyskeu: Pokémon Caja Mega-Latias Ex Español
-Dyskeu: Pokémon Caja Mega-Latias Ex Inglés
