@@ -268,7 +268,9 @@ Collector Center: Pokemon TCG Mega Latias ex Box - Español
 Collector Center: Pokemon TCG Mega Zygarde - ex Premium Collection - (Español)
 Collector Center: Pokemon TCG Pokeball Tin (Q4 2025) (Español)
 Collector Center: Pokemon TCG Pokemon Day 2026 Collection - Español
+Collector Center: Pokemon TCG Pokemon Day 2026 Collection - Ingles
 Collector Center: Pokémon TCG: Delta Reignt - Checklane Blister (Spritzee) - Inglés
+Collector Center: Pokémon: Lumiose City Mini Tin (diseño al azar) - INGLÉS
 Collector Center: Pokémon: Mega Moonlit Tin (MEGA CLEFABLE) - Inglés
 Dark Light Store: Elite Trainer Box – Pokemon Go
 Dark Light Store: Pokemon Day 2026 Collection – Inglés
@@ -497,5 +499,3 @@ Dyskeu: Pokémon  Lonchera Coleccionista Q3 2025
 Dyskeu: Pokémon Battle Deck Mega-Diance Ex Inglés
 Dyskeu: Pokémon Battle Deck Mega-Gengar Ex Inglés
 Dyskeu: Pokémon Caja Mega-Latias Ex Español
-Dyskeu: Pokémon Caja Mega-Latias Ex Inglés
-Dyskeu: Pokémon Caja de Entrenador Élite de Héroes Ascendidos – Español
