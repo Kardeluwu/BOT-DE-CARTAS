@@ -274,6 +274,7 @@ Collector Center: Pokémon TCG: Delta Reignt - Checklane Blister (Spritzee) - In
 Collector Center: Pokémon TCG: Paradox Rift - Checklane Blister (Sinistea) - Inglés
 Collector Center: Pokémon: Lumiose City Mini Tin (diseño al azar) - INGLÉS
 Collector Center: Pokémon: Mega Moonlit Tin (MEGA CLEFABLE) - Inglés
+Collector Center: Pokémon: Mega Moonlit Tin (MEGA GENGAR) - Inglés
 Dark Light Store: Elite Trainer Box – Pokemon Go
 Dark Light Store: Pokemon Day 2026 Collection – Inglés
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 2
@@ -498,4 +499,3 @@ Gameofmagictienda: One Piece TCG: Illustration Box (IB-04)
 Gameofmagictienda: One Piece TCG: Illustration Box (IB-07) 
 Gameofmagictienda: One Piece TCG: Illustration Box (IB-08) 
 Gameofmagictienda: One Piece TCG: Premium Card Collection - Best Selection 
-Gameofmagictienda: One Piece TCG: Premium Card Collection - Best Selection- Vol.2 
