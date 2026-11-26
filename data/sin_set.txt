@@ -1,31 +1,4 @@
 # Productos sin set reconocido. Agrega alias en sets.json para agruparlos mejor.
-AFK Store: Arceus V Figure Collection Box Pokemon Brilliant Stars
-AFK Store: Booster Box Mega Evolutions (Jap) Pokemon Center
-AFK Store: Booster Box Pokemon Japanese Shiny Star V
-AFK Store: Box Cylizar Ex Pokemon TCG: Scarlet and Violet
-AFK Store: Build & Battle Stadium Pokemon Evolving Skies
-AFK Store: Charizard [Box Topper] #9 Pokemon Skyridge
-AFK Store: Charizard [Box Topper] #S1 Pokemon Legendary Collection
-AFK Store: Donquixote Rosinante (One Piece Japanese Version 2nd Anniversary Set)
-AFK Store: Dragonite Vstar Box Pokemon Go
-AFK Store: Elite Trainer Box Plus: Zacian Pokemon Sword & Shield
-AFK Store: Elite Trainer Box Plus: Zamazenta Pokemon Sword & Shield
-AFK Store: Elite Trainer Box Pokemon Battle Styles
-AFK Store: Elite Trainer Box Pokemon Go
-AFK Store: Elite Trainer Box Pokemon Guardians Rising
-AFK Store: Elite Trainer Box Pokemon Team Up
-AFK Store: In Two Years!! At the Sabaody Archipelago!! (One Piece Japanese Version 2nd Anniversary Set) - One Piece Promotion Cards (OP-PR)
-AFK Store: Lonchera de Colección Pokemon Tcg
-AFK Store: Mewtwo Ex Box Pokemon TCG: Team Rocket’s
-AFK Store: Mewtwo Star - Gift Box Mew - Lucario (Pokemon Star)
-AFK Store: Monkey.D.Luffy (Premium Card Collection -ONE PIECE FILM RED Edition-)
-AFK Store: Pokemon Day 2026 Collection Box
-AFK Store: Pokemon TCG Charizard x Super Premium Collection
-AFK Store: Premium Collection Box [Radiant Eevee] Pokemon GO
-AFK Store: Shanks (Premium Card Collection -ONE PIECE FILM RED Edition-)
-AFK Store: Sobre (Booster Pack) Pokemon Base Set
-AFK Store: Sobres Pokemon Go
-AFK Store: TIN POKEMON TCG STACKING 2024
 AO Geek Store: CHARIZARD EX SPECIAL COLLECTION POKÉMON TCG
 AO Geek Store: ONE PIECE CARD GAME English Version 1st Anniversary Set
 AO Geek Store: ONE PIECE CARD GAME Japanese 2nd Anniversary Set
@@ -40,10 +13,6 @@ AO Geek Store: Pokemon: Team Rocket's Moltres ex Ultra Premium Collection
 AO Geek Store: Pokémon TCG Mega Venusaur ex Premium Collection Ingles
 AO Geek Store: Premium Card Collection : ONE PIECE FILM RED Edition
 Addictionmodel: Pokemon TCG: Team Rocket's Mewtwo ex League Battle Deck - ESPAÑOL
-Apolostore: Binder Collection Pokémon 30 Anniversary
-Apolostore: One Piece Card Game: English Version 1st Anniversary Set
-Apolostore: Pokémon TCG Cynthia’s Garchomp EX Premium Collection
-Apolostore: Preventa- Pokémon TCG Team Rocket’s Mewtwo EX Box
 Arcadia Collects: APERTURA EN VIVO Pokemon TCG - Series 2 First Partner Illustration Collection 30 Anniversary (ESPAÑOL)
 Arcadia Collects: APERTURA EN VIVO Pokemon TCG - Series 2 First Partner Illustration Collection 30 Anniversary (INGLES)
 Arcadia Collects: One Piece TCG: Devil Fruits Collection Vol.2 – Flame Flame Fruits INGLES
@@ -250,13 +219,6 @@ Casa de Juegos: Pokémon TCG – Slashing Legends Tin Koraidon ex y Zacian ex (E
 Casa de Juegos: Pokémon TCG – Team Rocket's Mewtwo ex Box (Inglés / Español)
 Casa de Juegos: Pokémon TCG – Team Rocket's Mewtwo ex League Battle Deck (Inglés)
 Casa de Juegos: Pokémon TCG – Twilight Masquerade Sobres (Español)
-Charizstore: ONE PIECE : IB08 Illustration Box Vol.8
-Charizstore: Pokemon TCG Mega Latias ex Box – Español
-Charizstore: Pokemon TCG Mega Latias ex Box – Inglés
-Charizstore: Pokémon Day 2026 Collection – INGLES
-Charizstore: Pokémon TCG Shrouded Fable Kingambit Box – Español
-Charizstore: Pokémon Tcg Hidden Fates Premium Power Collection  – Español
-Charizstore: SET DADOS POKÉMON (DADOS ETB)
 Chikov Store: League Battle Deck Pokemon TCG: Mega Lucario EX
 ChileManga: Pokemon Day 2026 Collection - Español
 Collector Center: Dice Box - Pokémon Center 2026 San Francisco (Con set de contadores)
@@ -270,8 +232,6 @@ Collector Center: Pokémon TCG: Paradox Rift - Checklane Blister (Sinistea) - In
 Collector Center: Pokémon: Lumiose City Mini Tin (diseño al azar) - INGLÉS
 Collector Center: Pokémon: Mega Moonlit Tin (MEGA CLEFABLE) - Inglés
 Collector Center: Pokémon: Mega Moonlit Tin (MEGA GENGAR) - Inglés
-Dark Light Store: Elite Trainer Box – Pokemon Go
-Dark Light Store: Pokemon Day 2026 Collection – Inglés
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 2
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 3
 Decks Cards: One Piece Mystery Pin Badge Blind Box
@@ -333,14 +293,6 @@ Donquixotetcgs: Preventa - Pokemon TCG -Pokemon Day 2026 Collection (ingles)
 Donquixotetcgs: Preventa One Piece Card Game - Japanese 2nd Anniversary Set ingles
 Donquixotetcgs: Preventa Pokemon - Hop's Zacian Ex Box (ingles)
 Donquixotetcgs: Preventa Pokemon TCG - Ultra-Premium Collections Day & Night (Ingles)
-Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 ESPAÑOL
-Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 INGLES
-Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q2 ESPAÑOL
-Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 ESPAÑOL
-Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 INGLES
-Drawn Maipú: Pokemon TCG: Blaziken ex & Volcanion ex Premium Collection INGLES
-Drawn Maipú: Pokemon TCG: Greninja & Kingdra ex Special Collection INGLES
-Drawn Maipú: Pokemon TCG: Venusaur & Blastoise ex Premium Collection INGLES
 Dyskeu: (Preventa) Pokémon TCG: First Partner- Illustration Collection  (Series 3)- Inglés
 Dyskeu: (Preventa)Pokémon TCG: Colección de Ilustración de Primeros Compañeros (serie 3) – Español
 Dyskeu: ONE PIECE CARD GAME: Heroines edition sobre
@@ -403,14 +355,6 @@ El Arcanista: Pokémon TCG · Mega Lucario ex · League Battle Deck · Inglés/ 
 El Arcanista: Pokémon TCG · Mega Zygarde ex · Premium Collection · Inglés
 El Arcanista: Pokémon TCG · Team Rocket's Mewtwo ex · Box · Inglés
 El Arcanista: Pokémon TCG · Tinieblas Umbrías · Elite Trainer Box (ETB) · Español
-El Panteón: Pin Collection [Bulbasaur] – Pokemon GO Ingles
-El Panteón: Pin Collection [Charmander] – Pokemon GO Ingles
-El Panteón: Pin Collection [Squirtle] – Pokemon GO Ingles
-El Panteón: Pokemon GO Elite Trainer Box – Pokemon GO ESPAÑOL
-El Panteón: Pokemon GO Elite Trainer Box – Pokemon GO Ingles
-El Panteón: Pokemon GO Premium Collection  Radiant Eevee Ingles
-El Panteón: Special Collection – Team Mystic – Pokemon GO Ingles
-El Panteón: Special Collection – Team Valor – Pokemon GO Ingles
 El Reino de los Duelos: Mythical Pokemon Collection Box [Genesect] - Generations (GEN)
 El Reino de los Duelos: One Piece Card Game Double Pack Set Vol.12 DP-12
 El Reino de los Duelos: One Piece Card Game: (DF03) Devil Fruits Collection Vol.3
@@ -433,22 +377,6 @@ El Reino de los Duelos: Pokémon TCG: Mega Zygarde ex Premium Collection Inglés
 El Reino de los Duelos: Pokémon TCG: Pokéball Tin (Q4 2025) Inglés
 El Reino de los Duelos: Pokémon TCG: Pokémon Day 2026 Collection Inglés
 El Reino de los Duelos: Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck Inglés
-El Wnd de las Cartas: (Preventa) Pokémon First Partner Illustration Collection Q2 2026 Inglés
-El Wnd de las Cartas: League Battle Deck Pokemon TCG: Mega Lucario EX
-El Wnd de las Cartas: POKÉMON TCG: TEAM ROCKET’S MEWTWO EX BOX (INGLES)
-El Wnd de las Cartas: Pokemon  TCG Mega Kangaskhan Ex Box – Ingles
-El Wnd de las Cartas: Pokemon TCG Mega Zygarde ex Premium Collection – Ingles
-El Wnd de las Cartas: Pokemon TCG: Pokemon Day 2026 Collection – Ingles
-El Wnd de las Cartas: Pokémon Mega Lucario Ex Figure Collection
-El Wnd de las Cartas: Pokémon TCG: Lumiose City Mini Tin
-El Wnd de las Cartas: Pokémon TCG: Mega Moonlit Tin Ingles (Mega Clefable)
-El Wnd de las Cartas: Pokémon TCG: Mega Moonlit Tin Ingles (Mega Gengar)
-Elkingo: ONE PIECE CCG ROMANCE DAWN CAJA DE SOBRES
-Elkingo: One Piece Gift Collection 2023
-Elkingo: One Piece TCG: Paramount War – Booster Pack
-Elkingo: One Piece TCG: Paramount War – Booster box
-Elkingo: One Piece TCG: Starter Deck – Big Mom
-Elkingo: Pokémon: First Partner – Illustration Collection Series 2 (ingles)
 Filecity: ONE PIECE CARD GAME Japanese 3rd ANNIVERSARY SET (Producto en Inglés)
 Filecity: One Piece Card Game - Double Pack Set Vol. 10 (DP-10)
 Filecity: One Piece Card Game - Double Pack Set Vol. 12 (DP-12)
@@ -499,3 +427,75 @@ Gameofmagictienda: One Piece TCG: Tin pack set Vol.2 (TS-02) - Ace
 Gameofmagictienda: One Piece TCG: Tin pack set Vol.2 (TS-02) - Luffy 
 Gameofmagictienda: One Piece TCG: Tin pack set Vol.2 (TS-02) - Sabo 
 Gameofmagictienda: One Piece TCG: Two Legends Double Pack (OP-DP05) 
+Gameofmagictienda: One Piece TCG: UTA Collection 
+Gameofmagictienda: PKM Iono's Bellibolt EX Premium Collection Español 
+Gameofmagictienda: PKM TCG  Charizard ex League Battle Deck Español 
+Gameofmagictienda: PKM TCG  Charizard ex League Battle Deck Inglés 
+Gameofmagictienda: PKM TCG  Charizard ex Super Premium Collection Español 
+Gameofmagictienda: PKM TCG  Charizard ex Super Premium Collection Inglés 
+Gameofmagictienda: PKM TCG  Grand Adventure Collection Inglés 
+Gameofmagictienda: PKM TCG  Houndstone ex Box Español 
+Gameofmagictienda: PKM TCG  Houndstone ex Box Inglés 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Great ball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Moon Ball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Pokeball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Premiere ball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Español - Ultra ball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Great ball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Moon Ball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Pokeball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Premiere ball 
+Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Ultra ball 
+Gameofmagictienda: PKM TCG  Tapu Koko ex Battle Deck Español 
+Gameofmagictienda: PKM TCG  Tapu Koko ex Battle Deck Inglés 
+Gameofmagictienda: PKM TCG - Iono's Bellibolt EX Premium Collection Ingles 
+Gameofmagictienda: PKM TCG Azure Legends Tin - Dialga Ex Español 
+Gameofmagictienda: PKM TCG Azure Legends Tin - Dialga Ex Ingles 
+Gameofmagictienda: PKM TCG Azure Legends Tin - Kyogre Ex Español 
+Gameofmagictienda: PKM TCG Azure Legends Tin - Kyogre Ex Ingles 
+Gameofmagictienda: PKM TCG Azure Legends Tin - Xerneas Ex Ingles 
+Gameofmagictienda: PKM TCG Azure Legends Tin - XerneasEx Español 
+Gameofmagictienda: PKM TCG Blooming Waters Premium Collection 
+Gameofmagictienda: PKM TCG Charizard Ex Special Collection Español 
+Gameofmagictienda: PKM TCG Charizard Ex Special Collection Inglés 
+Gameofmagictienda: PKM TCG Hop's Zacian ex Box Español 
+Gameofmagictienda: PKM TCG Hop's Zacian ex Box Ingles 
+Gameofmagictienda: PKM TCG Iron Leaves ex Battle Deck Español 
+Gameofmagictienda: PKM TCG Iron Leaves ex Battle Deck Inglés 
+Gameofmagictienda: PKM TCG Mega Greninja ex Premium Collection Español 
+Gameofmagictienda: PKM TCG Mega Greninja ex Premium Collection Ingles 
+Gameofmagictienda: PKM TCG Ogerpon ex Premium Collection English 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Booster Bundle Español 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Booster Bundle Ingles 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Elite Trainer Box Español 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Elite Trainer Box Ingles 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Greninja ex Special Illustration Collection Ingles 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Kingambit Illustration Collection Español 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Dusknoir Español 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Dusknoir Ingles 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Fezandipiti Ingles 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Munkidori Español 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Munkidori Ingles 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Okidogi Español 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Okidogi Ingles 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Zoroark Español 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Mini Tin Zoroark Ingles 
+Gameofmagictienda: PKM TCG S & V - Shrouded Fable - Pecharunt Blister Español 
+Gameofmagictienda: PKM TCG S&V 10.5 - Illustration Collection Victini Español 
+Gameofmagictienda: PKM TCG S&V 10.5 - Illustration Collection Victini Ingles 
+Gameofmagictienda: PKM TCG S&V 10.5 ESPAÑOL - Mini Tin Eelektross & Galvantula 
+Gameofmagictienda: PKM TCG S&V 10.5 ESPAÑOL - Mini Tin Lilligant & Whimsicott 
+Gameofmagictienda: PKM TCG S&V 10.5 ESPAÑOL - Unova Mini Tin Mienshao & Klinklang Español 
+Gameofmagictienda: PKM TCG S&V 10.5 ESPAÑOL - Unova Mini Tin Volcarona & Emolga 
+Gameofmagictienda: PKM TCG S&V 10.5 ESPAÑOL- Mini Tin Alomomola & Axew 
+Gameofmagictienda: PKM TCG S&V 10.5 ESPAÑOL- Mini Tin Chandelure & Zorua 
+Gameofmagictienda: PKM TCG S&V 10.5 ESPAÑOL- Mini Tin Garbodor & Amoonguss 
+Gameofmagictienda: PKM TCG S&V 10.5 ESPAÑOL- Mini Tin Krookodile & Excadrill 
+Gameofmagictienda: PKM TCG S&V 10.5 INGLÉS - Mini Tin Alomomola & Axew 
+Gameofmagictienda: PKM TCG S&V 10.5 INGLÉS - Mini Tin Chandelure & Zorua 
+Gameofmagictienda: PKM TCG S&V 10.5 INGLÉS - Mini Tin Eelektross & Galvantula 
+Gameofmagictienda: PKM TCG S&V 10.5 INGLÉS - Mini Tin Garbodor & Amoonguss 
+Gameofmagictienda: PKM TCG S&V 10.5 INGLÉS - Mini Tin Krookodile & Excadrill 
+Gameofmagictienda: PKM TCG S&V 10.5 INGLÉS - Unova Mini Tin Lilligant & Whimsicott 
+Gameofmagictienda: PKM TCG S&V 10.5 INGLÉS - Unova Mini Tin Mienshao & Klinklang 
+Gameofmagictienda: PKM TCG S&V 10.5 INGLÉS - Unova Mini Tin Volcarona & Emolga 
