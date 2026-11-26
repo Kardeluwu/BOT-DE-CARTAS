@@ -1,4 +1,31 @@
 # Productos sin set reconocido. Agrega alias en sets.json para agruparlos mejor.
+AFK Store: Arceus V Figure Collection Box Pokemon Brilliant Stars
+AFK Store: Booster Box Mega Evolutions (Jap) Pokemon Center
+AFK Store: Booster Box Pokemon Japanese Shiny Star V
+AFK Store: Box Cylizar Ex Pokemon TCG: Scarlet and Violet
+AFK Store: Build & Battle Stadium Pokemon Evolving Skies
+AFK Store: Charizard [Box Topper] #9 Pokemon Skyridge
+AFK Store: Charizard [Box Topper] #S1 Pokemon Legendary Collection
+AFK Store: Donquixote Rosinante (One Piece Japanese Version 2nd Anniversary Set)
+AFK Store: Dragonite Vstar Box Pokemon Go
+AFK Store: Elite Trainer Box Plus: Zacian Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Plus: Zamazenta Pokemon Sword & Shield
+AFK Store: Elite Trainer Box Pokemon Battle Styles
+AFK Store: Elite Trainer Box Pokemon Go
+AFK Store: Elite Trainer Box Pokemon Guardians Rising
+AFK Store: Elite Trainer Box Pokemon Team Up
+AFK Store: In Two Years!! At the Sabaody Archipelago!! (One Piece Japanese Version 2nd Anniversary Set) - One Piece Promotion Cards (OP-PR)
+AFK Store: Lonchera de Colección Pokemon Tcg
+AFK Store: Mewtwo Ex Box Pokemon TCG: Team Rocket’s
+AFK Store: Mewtwo Star - Gift Box Mew - Lucario (Pokemon Star)
+AFK Store: Monkey.D.Luffy (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Pokemon Day 2026 Collection Box
+AFK Store: Pokemon TCG Charizard x Super Premium Collection
+AFK Store: Premium Collection Box [Radiant Eevee] Pokemon GO
+AFK Store: Shanks (Premium Card Collection -ONE PIECE FILM RED Edition-)
+AFK Store: Sobre (Booster Pack) Pokemon Base Set
+AFK Store: Sobres Pokemon Go
+AFK Store: TIN POKEMON TCG STACKING 2024
 AO Geek Store: CHARIZARD EX SPECIAL COLLECTION POKÉMON TCG
 AO Geek Store: ONE PIECE CARD GAME English Version 1st Anniversary Set
 AO Geek Store: ONE PIECE CARD GAME Japanese 2nd Anniversary Set
@@ -13,6 +40,10 @@ AO Geek Store: Pokemon: Team Rocket's Moltres ex Ultra Premium Collection
 AO Geek Store: Pokémon TCG Mega Venusaur ex Premium Collection Ingles
 AO Geek Store: Premium Card Collection : ONE PIECE FILM RED Edition
 Addictionmodel: Pokemon TCG: Team Rocket's Mewtwo ex League Battle Deck - ESPAÑOL
+Apolostore: Binder Collection Pokémon 30 Anniversary
+Apolostore: One Piece Card Game: English Version 1st Anniversary Set
+Apolostore: Pokémon TCG Cynthia’s Garchomp EX Premium Collection
+Apolostore: Preventa- Pokémon TCG Team Rocket’s Mewtwo EX Box
 Arcadia Collects: APERTURA EN VIVO Pokemon TCG - Series 2 First Partner Illustration Collection 30 Anniversary (ESPAÑOL)
 Arcadia Collects: APERTURA EN VIVO Pokemon TCG - Series 2 First Partner Illustration Collection 30 Anniversary (INGLES)
 Arcadia Collects: One Piece TCG: Devil Fruits Collection Vol.2 – Flame Flame Fruits INGLES
@@ -219,6 +250,13 @@ Casa de Juegos: Pokémon TCG – Slashing Legends Tin Koraidon ex y Zacian ex (E
 Casa de Juegos: Pokémon TCG – Team Rocket's Mewtwo ex Box (Inglés / Español)
 Casa de Juegos: Pokémon TCG – Team Rocket's Mewtwo ex League Battle Deck (Inglés)
 Casa de Juegos: Pokémon TCG – Twilight Masquerade Sobres (Español)
+Charizstore: ONE PIECE : IB08 Illustration Box Vol.8
+Charizstore: Pokemon TCG Mega Latias ex Box – Español
+Charizstore: Pokemon TCG Mega Latias ex Box – Inglés
+Charizstore: Pokémon Day 2026 Collection – INGLES
+Charizstore: Pokémon TCG Shrouded Fable Kingambit Box – Español
+Charizstore: Pokémon Tcg Hidden Fates Premium Power Collection  – Español
+Charizstore: SET DADOS POKÉMON (DADOS ETB)
 Chikov Store: League Battle Deck Pokemon TCG: Mega Lucario EX
 ChileManga: Pokemon Day 2026 Collection - Español
 Collector Center: Dice Box - Pokémon Center 2026 San Francisco (Con set de contadores)
@@ -233,6 +271,8 @@ Collector Center: Pokémon TCG: Paradox Rift - Checklane Blister (Sinistea) - In
 Collector Center: Pokémon: Lumiose City Mini Tin (diseño al azar) - INGLÉS
 Collector Center: Pokémon: Mega Moonlit Tin (MEGA CLEFABLE) - Inglés
 Collector Center: Pokémon: Mega Moonlit Tin (MEGA GENGAR) - Inglés
+Dark Light Store: Elite Trainer Box – Pokemon Go
+Dark Light Store: Pokemon Day 2026 Collection – Inglés
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 2
 Deck Kingdom: Pokémon TCG: First Partner Illustration Collection - Series 3
 Decks Cards: One Piece Mystery Pin Badge Blind Box
@@ -294,6 +334,14 @@ Donquixotetcgs: Preventa - Pokemon TCG -Pokemon Day 2026 Collection (ingles)
 Donquixotetcgs: Preventa One Piece Card Game - Japanese 2nd Anniversary Set ingles
 Donquixotetcgs: Preventa Pokemon - Hop's Zacian Ex Box (ingles)
 Donquixotetcgs: Preventa Pokemon TCG - Ultra-Premium Collections Day & Night (Ingles)
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q1 INGLES
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q2 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 ESPAÑOL
+Drawn Maipú: Pokemon TCG - First Partner Illustration Collection Q3 INGLES
+Drawn Maipú: Pokemon TCG: Blaziken ex & Volcanion ex Premium Collection INGLES
+Drawn Maipú: Pokemon TCG: Greninja & Kingdra ex Special Collection INGLES
+Drawn Maipú: Pokemon TCG: Venusaur & Blastoise ex Premium Collection INGLES
 Dyskeu: (Preventa) Pokémon TCG: First Partner- Illustration Collection  (Series 3)- Inglés
 Dyskeu: (Preventa)Pokémon TCG: Colección de Ilustración de Primeros Compañeros (serie 3) – Español
 Dyskeu: ONE PIECE CARD GAME: Heroines edition sobre
@@ -356,6 +404,14 @@ El Arcanista: Pokémon TCG · Mega Lucario ex · League Battle Deck · Inglés/ 
 El Arcanista: Pokémon TCG · Mega Zygarde ex · Premium Collection · Inglés
 El Arcanista: Pokémon TCG · Team Rocket's Mewtwo ex · Box · Inglés
 El Arcanista: Pokémon TCG · Tinieblas Umbrías · Elite Trainer Box (ETB) · Español
+El Panteón: Pin Collection [Bulbasaur] – Pokemon GO Ingles
+El Panteón: Pin Collection [Charmander] – Pokemon GO Ingles
+El Panteón: Pin Collection [Squirtle] – Pokemon GO Ingles
+El Panteón: Pokemon GO Elite Trainer Box – Pokemon GO ESPAÑOL
+El Panteón: Pokemon GO Elite Trainer Box – Pokemon GO Ingles
+El Panteón: Pokemon GO Premium Collection  Radiant Eevee Ingles
+El Panteón: Special Collection – Team Mystic – Pokemon GO Ingles
+El Panteón: Special Collection – Team Valor – Pokemon GO Ingles
 El Reino de los Duelos: Mythical Pokemon Collection Box [Genesect] - Generations (GEN)
 El Reino de los Duelos: One Piece Card Game Double Pack Set Vol.12 DP-12
 El Reino de los Duelos: One Piece Card Game: (DF03) Devil Fruits Collection Vol.3
@@ -378,6 +434,22 @@ El Reino de los Duelos: Pokémon TCG: Mega Zygarde ex Premium Collection Inglés
 El Reino de los Duelos: Pokémon TCG: Pokéball Tin (Q4 2025) Inglés
 El Reino de los Duelos: Pokémon TCG: Pokémon Day 2026 Collection Inglés
 El Reino de los Duelos: Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck Inglés
+El Wnd de las Cartas: (Preventa) Pokémon First Partner Illustration Collection Q2 2026 Inglés
+El Wnd de las Cartas: League Battle Deck Pokemon TCG: Mega Lucario EX
+El Wnd de las Cartas: POKÉMON TCG: TEAM ROCKET’S MEWTWO EX BOX (INGLES)
+El Wnd de las Cartas: Pokemon  TCG Mega Kangaskhan Ex Box – Ingles
+El Wnd de las Cartas: Pokemon TCG Mega Zygarde ex Premium Collection – Ingles
+El Wnd de las Cartas: Pokemon TCG: Pokemon Day 2026 Collection – Ingles
+El Wnd de las Cartas: Pokémon Mega Lucario Ex Figure Collection
+El Wnd de las Cartas: Pokémon TCG: Lumiose City Mini Tin
+El Wnd de las Cartas: Pokémon TCG: Mega Moonlit Tin Ingles (Mega Clefable)
+El Wnd de las Cartas: Pokémon TCG: Mega Moonlit Tin Ingles (Mega Gengar)
+Elkingo: ONE PIECE CCG ROMANCE DAWN CAJA DE SOBRES
+Elkingo: One Piece Gift Collection 2023
+Elkingo: One Piece TCG: Paramount War – Booster Pack
+Elkingo: One Piece TCG: Paramount War – Booster box
+Elkingo: One Piece TCG: Starter Deck – Big Mom
+Elkingo: Pokémon: First Partner – Illustration Collection Series 2 (ingles)
 Filecity: ONE PIECE CARD GAME Japanese 3rd ANNIVERSARY SET (Producto en Inglés)
 Filecity: One Piece Card Game - Double Pack Set Vol. 11 (DP-11)
 Filecity: One Piece Card Game - Double Pack Set Vol. 12 (DP-12)
@@ -403,99 +475,27 @@ Funnyko: Blind Box Pokémon Forest 7 Re-Ment
 Funnyko: Blind Box Pokémon terrarium 13
 Funnyko: Blind box Pokémon Terrarium Collection Happy Days Re-Ment
 Funnyko: Dec Box DonDon Donkan Yan? (Pokémon Center)
-Geekers:   Pokémon TCG Mega Latias ex Box |  Español LatAm  
-Geekers:   Pokémon TCG: Iono’s Bellibolt Ex Premium Collection 
-Geekers:  Pokémon GO Pin Collection Squirtle (Inglés)
-Geekers:  Pokémon Mega Venusaur ex Premium Collection – Inglés  
-Geekers:  Pokémon TCG - Pokemon GO Booster -  [1 sobres en Inglés de 10 cartas ]
-Geekers:  Pokémon TCG Sword & Shield – Booster Pack Español (1 sobre en español)
-Geekers:  Pokémon TCG Ultra Premium Collection Charizard English
-Geekers:  Pokémon TCG: Grand Adventure Collection Inglés 
-Geekers:  Pokémon TCG: Mazo Charizard ex League Battle Deck en Inglés 2024 
-Geekers:  Pokémon TCG: Mega Lucario ex Figure Collection – Inglés 
-Geekers:  Pokémon TCG: Pokemon GO Alolan Exeggutor V Box (Inglés) 
-Geekers:  Pokémon TCG: Venusaur VMAX Battle Box English
-Geekers:  Pokémon Tgc: Darkness Ablaze Elite Trainer Box Inglés 
-Geekers: Cartas Pokémon TCG Pokémon Day 2026 Collection | Edición Especial [Español LatAm] [RESERVA]
-Geekers: Cartas Pokémon TCG Pokémon Day 2026 Collection | Edición Especial [Inglés] 
-Geekers: Collector Chest Q3 2025 Pokémon TCG | Cofre para Coleccionistas Pokémon 
-Geekers: One Piece ! - Memorial Collection Extra  Booster Pack 
-Geekers: One Piece ! - One Piece Card Game Double Pack Set vol.1 [DP-01]
-Geekers: One Piece ! - Paramount War - Booster Pack 
-Geekers: One Piece ! - Pillars of Strength Booster Pack 
-Geekers: One Piece ! - Starter Deck #08 Monkey D Luffy 
-Geekers: One Piece !- Starter Deck #09 Yamato
-Geekers: One Piece TCG - (GC01) Gift Collection 2023
-Geekers: Pokemon Crown Zenith Collection Regidrago V  (Inglés)
-Geekers: Pokemon Crown Zenith Elite Trainer Box (Español) 
-Geekers: Pokemón TCG: Silver Tempest  Booster Español (1 sobre de 10 cartas)
-Geekers: Pokemón TCG: Silver Tempest  Booster- 1 sobre en Español 
-Geekers: Pokemón TCG: Silver Tempest  Booster- sobre en Inglés
-Geekers: Pokémon Crown Zenith Premium Figure Collection | Shiny Zacian  (INGLÉS)
-Geekers: Pokémon Crown Zenith Premium Figure Collection | Shiny Zamazenta (Inglés) 
-Geekers: Pokémon Crown Zenith Special Collection – Pikachu VMAX - Español  [RESTOCK]
-Geekers: Pokémon GO Mini Lata [Pack 5 unidades]
-Geekers: Pokémon GO Pin Collection Bulbasaur (Inglés)
-Geekers: Pokémon GO Pin Collection Charmander (Inglés)
-Geekers: Pokémon Mega Venusaur ex Premium Collection – Español LatAm  
-Geekers: Pokémon TCC Eevee Evolutions Premium Collection INGLÉS  [sellada con detalle en caja]
-Geekers: Pokémon TCG - Calyrex Ice  Ride VMAX League  Battle Deck (Inglés) 
-Geekers: Pokémon TCG - Calyrex Swadow Ride VMAX League Battle Deck (Inglés) 
-Geekers: Pokémon TCG - Mega Zygarde ex Colección Premium Inglés
-Geekers: Pokémon TCG Bundle v Battle Deck Zeraora vs Deoxys inglés 
-Geekers: Pokémon TCG Chilling Reing  Booster Inglés (1 sobre de 10 cartas)
-Geekers: Pokémon TCG Crowm Zenith Tin en Español (1 lata con envío al azar)
-Geekers: Pokémon TCG Crown Zenith  booster - (1 sobre de 10 cartas)
-Geekers: Pokémon TCG Crown Zenith Display 10 Mini Tins Preventa  Inglés 
-Geekers: Pokémon TCG Deluxe Battle Decks – Mega Gengar ex [RESERVA]
-Geekers: Pokémon TCG Enhanced 2-Pack Blister Halloween 2026 Inglés| Cartas Pokémon Originales 
-Geekers: Pokémon TCG Hisuian Electrode V Box English  [Reserva]
-Geekers: Pokémon TCG Hisuian Zoroark VSTAR Premium Collection Español 
-Geekers: Pokémon TCG Hisuian Zoroark VSTAR Premium Collection Inglés
-Geekers: Pokémon TCG Mega Latias ex Box |  Inglés [RESERVA]
-Geekers: Pokémon TCG Mega Lucario ex League Battle Deck Español LatAm | Cartas Pokémon Originales en Chile
-Geekers: Pokémon TCG Mega Lucario ex League Battle Deck Inglés | Cartas Pokémon Originales en Chile
-Geekers: Pokémon TCG Meowscarada or Quaquaval ex Deluxe Battle Deck?  / detalle en caja por aplastamiento
-Geekers: Pokémon TCG – Deck Crafter's Collection | Cartas Pokémon Originales Chile PRE VENTA
-Geekers: Pokémon TCG: 2 Pack Rival Battle Deck Marnie & Steven Español
-Geekers: Pokémon TCG: Blastoise VMAX Battle Box English (Reposición)
-Geekers: Pokémon TCG: Bloodmoon Ursaluna ex Box Español
-Geekers: Pokémon TCG: Brilliant Star Español (1 sobre de 10 cartas)
-Geekers: Pokémon TCG: Brilliant Star Sobre en Inglés envio al Azar [Reposición]
-Geekers: Pokémon TCG: Charizard  Ex Box Inglés 
-Geekers: Pokémon TCG: Charizard ex League Battle Deck 2024 (Inglés)
-Geekers: Pokémon TCG: Charizard ex Super-Premium Collection (Inglés)  [RESERVA]
-Geekers: Pokémon TCG: Colección Especial Lugia ex Español | 6 Sobres + Carta Promo Jumbo
-Geekers: Pokémon TCG: Cynthia’s Garchomp ex Premium Collection Ingles  o Español Latino 
-Geekers: Pokémon TCG: Doble Pack Origin Forme Palkia / Dialga  VSTAR Premium Collection ESPAÑOL 
-Geekers: Pokémon TCG: Doble Pack Origin Forme Palkia / Dialga  VSTAR Premium Collection INGLÉS 
-Geekers: Pokémon TCG: Dragapult ex League Battle Deck – Español e Inglés 
-Geekers: Pokémon TCG: Fusion Strike Elite Trainer Box Inglés  [Ultima Unidad]
-Geekers: Pokémon TCG: Hisuian Electrode V Box Español 
-Geekers: Pokémon TCG: Lata Apilable Pokémon TCG Q1 2025 ( 1 lata con envío al azar) Español
-Geekers: Pokémon TCG: Mega Charizard X Ultra Premium Collection – Español
-Geekers: Pokémon TCG: Mega Charizard X o Y Tin Español | Cartas Pokémon Chile 
-Geekers: Pokémon TCG: Mega Kangaskhan ex Premium Collection 
-Geekers: Pokémon TCG: Mega Lucario ex Figure Collection – Español 
-Geekers: Pokémon TCG: Ogerpon ex Premium Collection Box Inglés o Español 
-Geekers: Pokémon TCG: Pack de 6 Latas Apilables Pokémon TCG Q1 2025 (Inglés) [RESERVA]
-Geekers: Pokémon TCG: Rival Battle Deck Marnie Español
-Geekers: Pokémon TCG: Shining Fates Elite trainer Box Inglés [Restock]
-Geekers: Pokémon TCG: Sobre Evolving Skies Envío al azar [Últimas unidades]
-Geekers: Pokémon TCG: Team Rocket's Mewtwo ex Box English
-Geekers: Pokémon TCG: Team Rocket’s Mewtwo ex League Battle Deck – Español
-Geekers: Pokémon TCG: Team Rocket’s Mewtwo ex League Battle Deck – Inglés
-Geekers: Pokémon TCG: Temporal Forces — Booster 1 sobre en Inglés
-Geekers: Pokémon TCG: Twilight Masquerade – Booster - (1 Sobre al azar)
-Geekers: Pokémon TGC  Pack 3 Pokeball Tin Spring 2022 en Español 
-Geekers: Pokémon TGC: Fusion Strike Booster Inglés ( 1 sobre de 10 cartas)
-Geekers: Pokémon TGC: Pack 3 Pokeball Tin Spring 2022 (pack 3 Latas)- COPIAR
-Geekers: Pokémon TGC: Pokémon GO Premium Collection Radiant Eevee 
-Geekers: Pokémon Tgc: Darkness Ablaze Elite Trainer Box Inglés
-Geekers: [BLACK FRIDAY] Pokémon TCG - Premiun Tournamet Collection Klara  (Español) [Reserva]
-Geekers: [BLACK FRIDAY] Pokémon TCG: Origin Forme Dialga VSTAR Premium Collection INGLÉS
-Geekers: [BLACK FRIDAY] Pokémon TCG: Origin Forme Palkia Pokémon VSTAR Premium Collection INGLÉS
-Geekers: [CYBER MONDAY] Pokémon TCG: Rival Battle Deck Steven Español
-Geekers: [Día del Niño]  Pokémon TCG– Pokeball Tin – The Best 2021  Envío al Azar [Restock Español]
-Geekers: [Día del Niño] Pokémon TCG: Team Rocket's Mewtwo ex Box Español Latino [RESERVA]
-Geekers: [HALLOGEEK]  Pokémon TCG: Lillie Premium Tournament Collection – Español e Inglés  
+Gameofmagictienda: * Preventa * Pokemon TCG: Trick or Trade BOOster Bundle - (Inglés) 
+Gameofmagictienda: **PREVENTA 05/12** PKM TCG S&V - PE - Premium Figure Collection English 
+Gameofmagictienda: **PREVENTA 05/12** PKM TCG S&V - PE - Premium Figure Collection Español 
+Gameofmagictienda: Cartas Pokemon: Stellar Crown - Booster Bundle Español 
+Gameofmagictienda: Mazo Pokemon TCG Melmetal ex Battle Deck Ingles 
+Gameofmagictienda: Mazo de Pokemon - V Battle Deck Gardevoir - Inglés 
+Gameofmagictienda: One Piece CCG: Don!! Storage Box 
+Gameofmagictienda: One Piece CCG: Premium Card Collection - 25th Edition 
+Gameofmagictienda: One Piece CCG: Storage Box - Standard Black 
+Gameofmagictienda: One Piece TCG: Devil Fruits Collection Vol.2 Devil Fruits
+Gameofmagictienda: One Piece TCG: Double Pack Set Volume 1 (DP01) 
+Gameofmagictienda: One Piece TCG: Gift Collection 2023 (GC-01) 
+Gameofmagictienda: One Piece TCG: Illustration Box (IB-03) 
+Gameofmagictienda: One Piece TCG: Illustration Box (IB-04) 
+Gameofmagictienda: One Piece TCG: Illustration Box (IB-07) 
+Gameofmagictienda: One Piece TCG: Illustration Box (IB-08) 
+Gameofmagictienda: One Piece TCG: Premium Card Collection - Best Selection 
+Gameofmagictienda: One Piece TCG: Premium Card Collection - Best Selection- Vol.2 
+Gameofmagictienda: One Piece TCG: Premium Card Collection - FEST 23-24 edition FEST 23-24
+Gameofmagictienda: One Piece TCG: Premium Card Collection - Live Action 
+Gameofmagictienda: One Piece TCG: TIN Pack SET Vol.1 - Gol D. Roger 
+Gameofmagictienda: One Piece TCG: TIN Pack SET Vol.1 - Luffy 
+Gameofmagictienda: One Piece TCG: Tin pack set Vol.2 (TS-02) - Ace 
+Gameofmagictienda: One Piece TCG: Tin pack set Vol.2 (TS-02) - Luffy 
