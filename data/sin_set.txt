@@ -63,7 +63,6 @@ Arcadia Collects: Pokemon TCG - Team Rocket’s Mewtwo ex League Battle Deck (IN
 Arcadia Collects: Pokemon TCG: Crown Zenith Pin Collection INGLES (Sword & Shield)
 Arcadia Collects: Pokemon TCG: Galar Pals Mini Tin Sueltas INGLES (Sword & Shield)
 Arcadia Collects: Pokemon TCG: Mega Brave - Booster Pack Sueltos (JAPONES)
-Arcadia Collects: Pokemon TCG: Mega Latias ex Box ESPAÑOL (Mega Evolutions)
 Arcadia Collects: Pokemon TCG: Mega Latias ex Box INGLES (Mega Evolutions)
 Arcadia Collects: Pokemon TCG: Mega Lucario EX Figure Collection – Inglés (Mega Evolutions)
 Arcadia Collects: Pokemon TCG: Mega Symphonia - Booster Pack Sueltos (JAPONES)
@@ -499,3 +498,4 @@ Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Pokeball
 Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Premiere ball 
 Gameofmagictienda: PKM TCG  Poke Ball Tin Q4 2024 Ingles - Ultra ball 
 Gameofmagictienda: PKM TCG  Tapu Koko ex Battle Deck Español 
+Gameofmagictienda: PKM TCG  Tapu Koko ex Battle Deck Inglés 
